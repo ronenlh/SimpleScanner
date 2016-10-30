@@ -1,0 +1,30 @@
+PODS:
+  - IPDFCameraViewController (0.0.1)
+  - Parsimmon (0.3.4)
+  - TesseractOCRiOS (4.0.0)
+  - TOCropViewController (2.0.7)
+
+DEPENDENCIES:
+  - IPDFCameraViewController
+  - Parsimmon (~> 0.3.4)
+  - TesseractOCRiOS (from `https://github.com/gali8/Tesseract-OCR-iOS.git`)
+  - TOCropViewController (~> 2.0)
+
+EXTERNAL SOURCES:
+  TesseractOCRiOS:
+    :git: https://github.com/gali8/Tesseract-OCR-iOS.git
+
+CHECKOUT OPTIONS:
+  TesseractOCRiOS:
+    :commit: b4edaf737b9495b6d609375c1ff2875be9acdb47
+    :git: https://github.com/gali8/Tesseract-OCR-iOS.git
+
+SPEC CHECKSUMS:
+  IPDFCameraViewController: c7e346c760d39ed7a137121bedfcecfde041cde6
+  Parsimmon: 48ca7a7c78261b34b215c17d1a13543d4f72cc51
+  TesseractOCRiOS: 729989db3984bb60ba3addb053569b172d48c409
+  TOCropViewController: cec24e4385929683b217d08bfdc8791975cddc04
+
+PODFILE CHECKSUM: bb8268acc605d5a59e6d0b2657366c06feb3f055
+
+COCOAPODS: 1.0.1

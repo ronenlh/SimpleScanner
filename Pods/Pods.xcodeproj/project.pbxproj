@@ -1,0 +1,1699 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07494E4DFAB1A3656C88A912AF37211C /* dewarp.h in Headers */ = {isa = PBXBuildFile; fileRef = B8AAC73ACAB36F17B02BBBF962A81006 /* dewarp.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		080F8E1AB54FF6E50F59AE588DE0E931 /* G8TesseractParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = E6837B1DDD78702ED82490E2F6C2C239 /* G8TesseractParameters.m */; };
+		085866B8A5FE00DC206EC427A1B46251 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 5FD1DB7DC4B9EC54C7F29461B4766B47 /* en.lproj */; };
+		08B5B444099818813300760B0349C86B /* TesseractOCR.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F6B554BC8892C6DE84243C8913DCF43 /* TesseractOCR.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0940E64E452CCD64495FBDD63C85018D /* jerror.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F7551649D95558E3EF80C7D745BBDC0 /* jerror.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		09CD11959F389B2C0BA1ED9732224150 /* tiffio.h in Headers */ = {isa = PBXBuildFile; fileRef = A60F8C5F888DF1756129997283B15BED /* tiffio.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		09DF508A73A06641B3BEDDD5CCD2B31A /* unicharset.h in Headers */ = {isa = PBXBuildFile; fileRef = B0CFD13D8B0123B3FDCC207D70900FBE /* unicharset.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		0AB41AE2E29A280192F574543520F32C /* TOCropViewControllerBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9BB0ABEC05BB28B0569E02212EAC6749 /* TOCropViewControllerBundle.bundle */; };
+		0B8E835B9CF56D4B7A109D376930A10F /* IPDFCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E6BC040434CAD4751EA983461D61364 /* IPDFCameraViewController.m */; };
+		0E4E842F4CF14DFD9123D58D6D9511C8 /* allheaders.h in Headers */ = {isa = PBXBuildFile; fileRef = D53FB9BFAFE2F5AE6091DC066A1897A0 /* allheaders.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		0F0ADB48A361FB7754ED64E41E62592D /* UIImage+CropRotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66EC6E4B5610A8E22DEB7BBB9961EF68 /* UIImage+CropRotate.m */; };
+		0FEE38AF5E4B10F48A6AF1867E2D8E27 /* host.h in Headers */ = {isa = PBXBuildFile; fileRef = AA4E66A469D0CDA2C536F3C17DE156FA /* host.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		0FF74C3DDEFDC1456F3CEB59889D8694 /* G8TesseractParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = AE543011F0273DCA3EB683DBC6FE6AD3 /* G8TesseractParameters.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1166FE0AED8C5E26A69F2CE410E0BF52 /* leptwin.h in Headers */ = {isa = PBXBuildFile; fileRef = EF017F1D66588D6AEED727C2802392CD /* leptwin.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		116B678CF25FD8FB9E8B64F8C93B2916 /* helpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F32E214B59C12E093B018C0178D3FCC /* helpers.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		13F6035B461CA1D05C8651298179607F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE524462E020CF6DFB7F47DB7D16079A /* Foundation.framework */; };
+		17235A1C4C0BDA4083BE7CF8F27F7943 /* G8RecognizedBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = A7DE6B3CCD9CEA6993D561B55BCC75E5 /* G8RecognizedBlock.m */; };
+		19669D0FB46C22F323B51612ED991F69 /* environ.h in Headers */ = {isa = PBXBuildFile; fileRef = 680FBB3F7D6788D3399CB4CB7A5CD92B /* environ.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1B7668CDC08B98E35571F08430447B5D /* ocrclass.h in Headers */ = {isa = PBXBuildFile; fileRef = 42E4C39D0B66CDD836925B67B23CA409 /* ocrclass.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1DFB386EFC5E572597EBE61D1180A167 /* IPDFCameraViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7C3AE75588413D66FFBDD9F42A8D64 /* IPDFCameraViewController-dummy.m */; };
+		2001B1B9364D0DA66BC03445A63A50C3 /* jconfig.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8888DC74907DA98C6CC76110B6C5DE /* jconfig.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		203CE7FC08E426EEEE76F82F98C7056A /* UIImage+G8Filters.m in Sources */ = {isa = PBXBuildFile; fileRef = 8469AB7D7211353DDFCAB23C835A5A31 /* UIImage+G8Filters.m */; };
+		217E66E3020C8B4540D25B43E05C48BB /* G8TesseractDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 38949EDCD180DB6EFB31953054D9FD12 /* G8TesseractDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21ABE13CCC822A4E697CA9A368D8FF24 /* ParsimmonTagger.h in Headers */ = {isa = PBXBuildFile; fileRef = FBEDDBB358D6DCBDB21C60C54E25E072 /* ParsimmonTagger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22C678FEA449598B7713B025296C4064 /* TesseractOCRiOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6A47335C1C0E25E127435DA2251858 /* TesseractOCRiOS-dummy.m */; };
+		23893A68BC76343D4F486B0DFBF3E354 /* capi.h in Headers */ = {isa = PBXBuildFile; fileRef = C27369402ADB2F029811C42B7F831D32 /* capi.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		253F84BE0E9BC8E4E76E45F7B883629D /* resultiterator.h in Headers */ = {isa = PBXBuildFile; fileRef = F6F76E555A90AE6AAD3B63EB97D62EF2 /* resultiterator.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		256E4F57E431DE762618E48C49DAA068 /* ja.lproj in Resources */ = {isa = PBXBuildFile; fileRef = F6782F0373C1561D261DDDC02707DDBB /* ja.lproj */; };
+		2752A8EC9D4FAC4DA3F6ECE46F5CCB2D /* queue.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FB4F9D54133DC95EFDB7BD5AAAD542C /* queue.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		2A01C93D42ECDBCA84D3643F0E4CD01E /* tesscallback.h in Headers */ = {isa = PBXBuildFile; fileRef = BF3618513A1012C80866AADEEF1AA5A8 /* tesscallback.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		2A0EE9583F9562359CD119A198A84064 /* strngs.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FB1CE5D1F34B47C054EED1F5F3ACAA5 /* strngs.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		2A6006E4EFA340CF4A74817E576FE901 /* ndminx.h in Headers */ = {isa = PBXBuildFile; fileRef = 214A726D702C05672EFC7A1FEEAA9F5B /* ndminx.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		2C7B5EFEC0D5BBFE13F065CB2E4B57BA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55988C412B90466031C2838BC19A5F6A /* AVFoundation.framework */; };
+		2FB51CEDCBA9BDFC0286E23DC03AD702 /* G8RecognitionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = AA6D8F88B7C7A3D624D87CB7055BA40B /* G8RecognitionOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		319C8F9987E49FEF6A9A2D94A9B5B9CB /* bmfdata.h in Headers */ = {isa = PBXBuildFile; fileRef = 20DAE2C84D36495120C885DCD4DF3942 /* bmfdata.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		33C771829BC593DDB1E37FEEA57142B3 /* jpeglib.h in Headers */ = {isa = PBXBuildFile; fileRef = 33B7086E74724D3BBF308730BFD9979F /* jpeglib.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		37A540E22E58AA4E1413D79D391E3771 /* bilateral.h in Headers */ = {isa = PBXBuildFile; fileRef = 43213121EFFFFCEBB526DB8CE9439D16 /* bilateral.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3BBFA2DAD16B66FDCFA7A9AC1D14E494 /* regutils.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F377837BBEFFA3F64B2D8243283AFE5 /* regutils.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3C488FC027BD65A90C191723545E3ADB /* ltrresultiterator.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B55450FD8FA1F6CC2EB453485B9BA87 /* ltrresultiterator.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3CAC78E6E176EA731F74E182AA43D88F /* G8RecognizedBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = E386AD8BE17EBBE92ACE95F0DE140A8C /* G8RecognizedBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E830AF9983D124EF8F7F436C702D2C1 /* osdetect.h in Headers */ = {isa = PBXBuildFile; fileRef = 3945169BB5E7C19DDF2F31E030050C04 /* osdetect.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3F7685DCC3711D542208C038C27098E9 /* unichar.h in Headers */ = {isa = PBXBuildFile; fileRef = 13FCC99C8B24E7649751064CEDB7D903 /* unichar.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		4872B30998F9CC18E66F32269EA959B1 /* ParsimmonLemmatizer.h in Headers */ = {isa = PBXBuildFile; fileRef = B1A5CCBFB75596BCB7FF83957378A611 /* ParsimmonLemmatizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48A7FBB7FBFF60E526E515EA20075ED4 /* ParsimmonTagger.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BDCFE8AE37D5D91E26F1CA33FBC687 /* ParsimmonTagger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		49FF9C21132EEB3A0319EB48CD4124CE /* bmf.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DE07B8791C40C75D4EF6F7AE190C6E2 /* bmf.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		4B439DDC0A5D866FFA52F9FEA6D30A68 /* stack.h in Headers */ = {isa = PBXBuildFile; fileRef = B30B9968974912B376ADBAD9598A58C3 /* stack.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		4D35917E346564B5A4388AFC7F4FA266 /* ParsimmonTaggedToken.m in Sources */ = {isa = PBXBuildFile; fileRef = A2DED5B109A47D8CB52DABF991F8E8D0 /* ParsimmonTaggedToken.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4F3D417BC3A02E64515456569CA2914C /* TOCropToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = B76B056A99ECDC84CD125404BFEF86D4 /* TOCropToolbar.m */; };
+		4FDB700053531D1B50DE3E56E8D53B04 /* Pods-SimpleScanner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30E5520D25BD5391E5E6DBC0D1950386 /* Pods-SimpleScanner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		511864A81C9C1D27F9E969B56193DA8D /* ParsimmonDecisionTree.h in Headers */ = {isa = PBXBuildFile; fileRef = 144278532933AA3EFF28277043D66D83 /* ParsimmonDecisionTree.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		511C43719419FFA8C296527274594104 /* ccbord.h in Headers */ = {isa = PBXBuildFile; fileRef = EC6196F563ACF25856AFE428AA2761F1 /* ccbord.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		51A15689AD89E91650890851CABA5970 /* ko.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 66A6F50133E0DB5D961A37772B1C53BE /* ko.lproj */; };
+		528880AEB178A89485848717D79C3918 /* bmp.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A755EA25489DE5260C70282718F6FC9 /* bmp.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		52DD8CBC6CB45D8AF1B389A8428189BB /* zh-Hans.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 68212C9001478626F7AAF8865910BF67 /* zh-Hans.lproj */; };
+		537A1626756DB7929697B489FE7D90A3 /* arrayaccess.h in Headers */ = {isa = PBXBuildFile; fileRef = 59C42A2562DE8B2D9D2CED1CD9FCA269 /* arrayaccess.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		54AA800B16B2BD8C977A83EE182D6614 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AB07D1BD901BBD98A0F3CF9E9A73C17 /* ImageIO.framework */; };
+		54E282BFD1D2220A559DD2480C7551AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE524462E020CF6DFB7F47DB7D16079A /* Foundation.framework */; };
+		5629318A2A9F3B67D2C189775BDFC7FF /* TesseractOCRiOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 83E3C9D412962796BFED3A3687A87FA3 /* TesseractOCRiOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57304A877B7A230658FF069C9D2561D9 /* ParsimmonTokenizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 21F910F867C2159551821407A42293CB /* ParsimmonTokenizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58B466BE184EACE52A0B6F8A7097ED1F /* stringcode.h in Headers */ = {isa = PBXBuildFile; fileRef = FC2FDEF633B2295AF315876AC419988C /* stringcode.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		5A0ABDD1620CD88244F487A19E566562 /* TOCropToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = F7B2386044D80B47C7DC74FDEC31A732 /* TOCropToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BA51F9A877E20DCADD0A8D092FE29A3 /* alltypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 642323135193BA24DDDAA0E1B1B44A6E /* alltypes.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		5E0EBCFBCAB64B1280C1133C751F34AA /* TOCropScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7414426AAC588D328AAAF7C0642F39B3 /* TOCropScrollView.m */; };
+		5F404F92C249CFF94E57994BC5453A4C /* errcode.h in Headers */ = {isa = PBXBuildFile; fileRef = BBDBD125534EE2A2E1BC329DE8FB506D /* errcode.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		602E5DE9BE6DC8AD5A6E237F55A5024B /* Pods-SimpleScanner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 585A73648171EE4BC26962D57594795C /* Pods-SimpleScanner-dummy.m */; };
+		610B8ABB30524D2350AC21E7978AD4E2 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5B3D7F6555161B32DF2C86A161122BA /* CoreImage.framework */; };
+		62861F41DB73938488C93EE01209D3C9 /* TOActivityCroppedImageProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = EF724C37ADFF4BB648989757D220E91E /* TOActivityCroppedImageProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		633F0D49A1B1E1D4EC1C288F4EFE4E3B /* de.lproj in Resources */ = {isa = PBXBuildFile; fileRef = A20F7E3B1752A64B2F5607BA560444FA /* de.lproj */; };
+		63FFEF2633C63AEEA120FACD5E3E4D38 /* basedir.h in Headers */ = {isa = PBXBuildFile; fileRef = B68F8544AECDCFC71E05B1662C3F5DDA /* basedir.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		6486A46958E6064D8E5447347942F883 /* jmorecfg.h in Headers */ = {isa = PBXBuildFile; fileRef = D3C71405362A152403C41D94F2F5412C /* jmorecfg.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		64B3DF804028376907AAE71B070768EC /* ru.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 8A3D43C48D524B0866956B2583B9BC45 /* ru.lproj */; };
+		66DE8C0E41DE9A3C54F255EC414EE0DD /* TOCropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DF4F21E2457AAB9CA71B7791D237D0 /* TOCropViewController.m */; };
+		68F6FE20E12D83F540807CECD965A9B0 /* endianness.h in Headers */ = {isa = PBXBuildFile; fileRef = DE55E809E174E52AA683454D61CC5137 /* endianness.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		7158833CD34B0F0E0F5ABB3EF9997EF8 /* recog.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B12165F6F028A42AD17ECEBDB5EE561 /* recog.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		722CF67A8720741F9397B3F1B241C798 /* ParsimmonNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFAEFBACE756C6DBF6E7C51DAB3FFF2 /* ParsimmonNode.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		72782691EE910823FC2753304D1199DE /* list.h in Headers */ = {isa = PBXBuildFile; fileRef = BF55824BF2AFF0E777F6267188F70DB1 /* list.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		730BFB1542076F3C5DC64FE2505FD065 /* TOCropViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E7BBFE8985BE753901DF7265B93292D /* TOCropViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7516251F6ED33C1542E52A2E786EBD8F /* ParsimmonNode.h in Headers */ = {isa = PBXBuildFile; fileRef = D636527A4A2FB0341A8E6AE47E857A24 /* ParsimmonNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7636D9536FDA3166C38997C50CE1C4C0 /* pt.lproj in Resources */ = {isa = PBXBuildFile; fileRef = C8C46AF2BA03D5B86AFE88DDCC21AED1 /* pt.lproj */; };
+		7775FCF65E8F95DB08DEC100117265CE /* ParsimmonNaiveBayesClassifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8136670C414C01814721A705178205 /* ParsimmonNaiveBayesClassifier.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		79FAF4A036B44C6DC90331FCA214376C /* it.lproj in Resources */ = {isa = PBXBuildFile; fileRef = D4A1803DB3D7DA348CAC7B65EA0C1A34 /* it.lproj */; };
+		7A0C465F9ED13C63839D3EC7C47F7549 /* ParsimmonSeed.m in Sources */ = {isa = PBXBuildFile; fileRef = F5AF444548D9F770D704FEAEF6934EF5 /* ParsimmonSeed.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7B46955C75A192F1AC8F7CC9D057D7F2 /* vi.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 4684115AD0C65AAFE9460FB8404A73C3 /* vi.lproj */; };
+		7E318827BAE30102E7415FBCDC761495 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DF47E38212D3FA06ED0D3235EA054C0 /* CoreMedia.framework */; };
+		81AA78D9D2BAB28953C1863D93C30E8C /* TOCroppedImageAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A089E48AB64EECE6F94F5FD0DD03375 /* TOCroppedImageAttributes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		849EDB23D1356196859F2CF6CFE0A36C /* TOCropViewControllerTransitioning.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ED164EFDF4392D70B21E7DF592A159A /* TOCropViewControllerTransitioning.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		854A8BA79F74B9E8C60320DDD205A271 /* TOActivityCroppedImageProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = E9549C7F59B9F6ED99672FDDD0456B81 /* TOActivityCroppedImageProvider.m */; };
+		86425D3BCB2381C6562B6C709AA51E2C /* ParsimmonNaiveBayesClassifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 68FC2669200FE026FA576720FDBC05E6 /* ParsimmonNaiveBayesClassifier.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		877584B6E70D7D99713B1C7BAFF9D41D /* fr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = F97B1B69BBE1EFA3CCC00FF3484A9810 /* fr.lproj */; };
+		8811017878DAFD9443FDB905BDD620B9 /* zh-Hant.lproj in Resources */ = {isa = PBXBuildFile; fileRef = FF0C05479FF95C6280F3CF17C603AD85 /* zh-Hant.lproj */; };
+		9015B97702E435AA226096864F3C916F /* serialis.h in Headers */ = {isa = PBXBuildFile; fileRef = 79DA9BD9E40406DCD4C893ADF349E03E /* serialis.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		95C08BCFF24252A396BF3DA998E619E8 /* pl.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 595A5E95AC53FCA5A30B880E58745821 /* pl.lproj */; };
+		960C08E0818F31F2C2E2DE5827385502 /* tiffvers.h in Headers */ = {isa = PBXBuildFile; fileRef = FF9D91E9D8491D56D8B13A77BE934591 /* tiffvers.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9790DB8129B95EF94A65B6A4E6FE38F8 /* jbclass.h in Headers */ = {isa = PBXBuildFile; fileRef = 03D6F661D1E838E2C56BFB73A62A5C97 /* jbclass.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		98C30A86CAE9BDF7C54AC0B95CB72C28 /* IPDFCameraViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD6CD228A3E8BE560FBE91A55DB73DF2 /* IPDFCameraViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A2EBC1A2E455A98CE13641B7254ED9C /* TOCropView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5620E3D0CCE4D040C41E8F906DD0AD8 /* TOCropView.m */; };
+		9F126F23F8F451D7F0CCD8CA2A3C3CD0 /* G8Tesseract.h in Headers */ = {isa = PBXBuildFile; fileRef = CA76D2A94F8BB1EED6C13FE804143959 /* G8Tesseract.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FC5ECB70816DA1F6EF3CBA9C3EEE5E3 /* TOCropViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D9B78CE0D9D8DA174E665E168589F55B /* TOCropViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A035084D34D5C3BF7283B700F4A2CAC1 /* tr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 22819BC79711BC3A752F4BB5AD95D887 /* tr.lproj */; };
+		A0ADB164BAB122F2DB1F3B48464EB289 /* UIImage+CropRotate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F58E2CFCD85957DD015B43574BBF842 /* UIImage+CropRotate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1C5845A2590CC59D7CC3E730BC591FE /* array.h in Headers */ = {isa = PBXBuildFile; fileRef = DA078CA5DF0E4488A65E64A361D0B6B9 /* array.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A3DBFC2927574DA944A2A6D4A102A978 /* es.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 82C66BA91F053BA1502354458B168EB2 /* es.lproj */; };
+		A4E473BC120B46C72BD199CFC09D3EF0 /* Parsimmon.h in Headers */ = {isa = PBXBuildFile; fileRef = 626FC0FA642AE2A0ED03B3B9878EC7AD /* Parsimmon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6C8401292B3FFEDF6D1855E8221D181 /* heap.h in Headers */ = {isa = PBXBuildFile; fileRef = 332A3B07DF1DB32A16DA2B3E49A2CFDE /* heap.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A96C3491ECC5050439FF0054F4C77DAE /* TOCropOverlayView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EE54F700D86447E4421FC13E840118A /* TOCropOverlayView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA4F74204617B972797825EAA055C3D8 /* memry.h in Headers */ = {isa = PBXBuildFile; fileRef = 1303D47C54F0ACEF33A4F3C4F82310E4 /* memry.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		AB4A9E6CE95E6CCEAD60419A516E4E5A /* nl.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 50749855502A77A7ABF636F6331867A7 /* nl.lproj */; };
+		AB8B375D98FE72BBFB743550153DBB1F /* sudoku.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C53B3DC96B7D7A9A623A02D757BF9E0 /* sudoku.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		ABB6C71A8C6EA835F640BA1B00C426E2 /* G8Tesseract.mm in Sources */ = {isa = PBXBuildFile; fileRef = 414C760EB3B81F8DDC3586E58246B662 /* G8Tesseract.mm */; };
+		ABE21365CF58D8BDB7BC7E0BC508A306 /* G8Constants.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BEF6EACA143DEA13D0E89C9F679FD92 /* G8Constants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF52CE2B1442D84266F5589F31673ED8 /* ParsimmonSeed.h in Headers */ = {isa = PBXBuildFile; fileRef = EBD07C34A9348693856A1825BD0B2DD2 /* ParsimmonSeed.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1CE9AF89705AA142AFB10D43EA6E69F /* Parsimmon-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A4DB8094FEE393A94850BD08F79C6C5C /* Parsimmon-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B53CAC98084FF15143A11E944A86C779 /* unicharmap.h in Headers */ = {isa = PBXBuildFile; fileRef = FA61DF0C5E35850152D0374EB7801A56 /* unicharmap.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B6944668D73A9B077F8F4C751DE442F1 /* pix.h in Headers */ = {isa = PBXBuildFile; fileRef = EED4E0808C161D7C61D292235ADB5965 /* pix.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B82D8274B7674C8B8C1E5FB7227A1CE9 /* tiff.h in Headers */ = {isa = PBXBuildFile; fileRef = B341DF720F65EE15B7CF3776902C2EE4 /* tiff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B972B814D64C80BE712239E578E48574 /* TOCropOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 583D1A109F4F0AD7C3379D91B0B515A9 /* TOCropOverlayView.m */; };
+		BCC1E8F77638DE2B4A5E34E70EB95419 /* baseapi.h in Headers */ = {isa = PBXBuildFile; fileRef = C7260447A8925840DD3CC19C7A32BA6A /* baseapi.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		BD57E2EE76D6257849606BB8361E3B91 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 289BE1823CD424659301F0AA9C0B2319 /* CoreVideo.framework */; };
+		BE7FCC1AEB591A4A7A4C54E80BAD535E /* params.h in Headers */ = {isa = PBXBuildFile; fileRef = A38A34867AF6B5DAD4BBE993E0350A8D /* params.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		BEB5514ED1AA33DF9E343EE87097F86A /* ParsimmonTokenizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A76569875DE39F76C70633AF5C605D /* ParsimmonTokenizer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BED6893B0791400393BA0ECF76BF6EE0 /* IPDFCameraViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 985C7309EF5D144C1CADF3DF66951D70 /* IPDFCameraViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C186DD4782BDF4DF581A36C8C6AE91C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE524462E020CF6DFB7F47DB7D16079A /* Foundation.framework */; };
+		C3303BA1D6B4369CE3C119B11E2597AE /* renderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5777A265F3078F4B74A542A846DB3425 /* renderer.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		C5CB20154E788CE950BAB2898FFF0A28 /* png.h in Headers */ = {isa = PBXBuildFile; fileRef = 20F7DF14F361630C78892A0A524DD762 /* png.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		C7F6CF5047833CBE858F12EC58522647 /* id.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 50E0AEAE0BB839B6A51A4FBE7F7C83D1 /* id.lproj */; };
+		C9D8D336FBBB391FB6674AE8CBCBDBBC /* publictypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 4056C47FB463DD97203C9FC57721B6DF /* publictypes.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		CA9254DE35EF72BE14B45170A019D07C /* Parsimmon-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 79DBEC3A61C075649F48F55F5E6C6544 /* Parsimmon-dummy.m */; };
+		CD0ADB22D452FDBCB3D71BF5FA0C392E /* pageiterator.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CB5DC363777B04BB09F338859AD2595 /* pageiterator.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		CEB6A5F94F0496B6C4384E8D675509BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95587C2A1AA86550D34930CA58C38E44 /* UIKit.framework */; };
+		CEEE50A6A8FFA5D95E35F50EBBED04BA /* watershed.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E303D437252E9CDBDCB5BF96E1CDDCF /* watershed.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D06854F0E2709E875244060CF32B47E8 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23E9FE7ED2A9DC630AEF4BFA4937C6AE /* GLKit.framework */; };
+		D34B1D83277EC06F57743A89DACA3A06 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 839132133E1F95920B3B33B34ACCCCC9 /* Base.lproj */; };
+		D40369A2128C3989E891FE2B7B329BCC /* ptra.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CAE5ECA0473F0BF437DF2FAA9B0ECF4 /* ptra.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D43BF96241ACCA063D0CB67FBAB65500 /* apitypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B7AA52EB56C8301C5B42ED8881F8C3A /* apitypes.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D9C15DCF740289FBA81CF0FA05BC2085 /* G8RecognitionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC314EFA25EF235CB1D9B48E689DD06 /* G8RecognitionOperation.m */; };
+		DB3ECC445B8F2723C17061664EBDC2DB /* imageio.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C793DC619CB39F6B794DB1E0BEB99D8 /* imageio.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		DB623A73176BA1C04C45F1CE1B6CB55A /* gplot.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D07FCBA327AEA52300D4AE009A89639 /* gplot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		DE9872EB60390A11BCEED969552504F5 /* TOCropView.h in Headers */ = {isa = PBXBuildFile; fileRef = A8E50987F3A3DBF5D543BF1628520D35 /* TOCropView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEAA832BD6697CC17122474B19382E35 /* TOCropViewControllerTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 067778366FC8F7D461AF0ACED4910570 /* TOCropViewControllerTransitioning.m */; };
+		DF6F79C7AE091C17A24FC51F3E08ADA0 /* ar.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 2ADEF34936BAE0C0BC2EF3D265446B51 /* ar.lproj */; };
+		E088ACAFAF113BA9C0D49E9331A274D1 /* tiffconf.h in Headers */ = {isa = PBXBuildFile; fileRef = 019728578151A2B34BA6DCFFE2ECF70F /* tiffconf.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		E227FD856D1E1D4706EC07634D9B56E4 /* ParsimmonTaggedToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 0712A7FB23C3E2DE456241B469F08FCE /* ParsimmonTaggedToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E28D56455DFB32D36B73E1D1D38D854D /* fileerr.h in Headers */ = {isa = PBXBuildFile; fileRef = 0284265202503D63492E3C5C08FCA37A /* fileerr.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		E620D719E57D54A05795E7213E233E00 /* da.lproj in Resources */ = {isa = PBXBuildFile; fileRef = D74D056BCA81D5C02ADCDD1025CBED4B /* da.lproj */; };
+		E788BC482F8D43E13E5B60D3AB83A94C /* TOCroppedImageAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 46BEE4108C4717478A1B020FA5BA490E /* TOCroppedImageAttributes.m */; };
+		E7D26964D15866E715E02A6825F9C510 /* genericvector.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C33ADB6D698B18142F9CFC66612274 /* genericvector.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		E8585A19CCA151A005514B008DA44997 /* ParsimmonDecisionTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 88FBA44CDAA4A39E39B10603FA14AB65 /* ParsimmonDecisionTree.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		ECAE19233FC94B6451471B0FACC63D8A /* platform.h in Headers */ = {isa = PBXBuildFile; fileRef = B1C4D723E4ECC41AFF273E214035AB7D /* platform.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F25CC3AA298C9B8484FA2BA941D0EB99 /* bbuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 626CA200BE82B3EBC15597A50E9EBD39 /* bbuffer.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F265C45340D048346025659E238B1FCF /* morph.h in Headers */ = {isa = PBXBuildFile; fileRef = E5F8A574BAADF88E44F601E0FBA3362B /* morph.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F2EC1A27B27C568B1D86B678F2994320 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE524462E020CF6DFB7F47DB7D16079A /* Foundation.framework */; };
+		F481AD8D05BF5D5A7F683421D48FDE9F /* ParsimmonLemmatizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CE5E6D26081FA379D3E45384CBA443 /* ParsimmonLemmatizer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F50BA4AF33D90DAC7BA3111E91C6E1B7 /* TOCropViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F31C1EF417A7A054BFA65D95A2CCACD0 /* TOCropViewController-dummy.m */; };
+		F518790DC6F903A639FE4D8E23E3A561 /* pngconf.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C776831711FA27EF4160CDC0A11F6D2 /* pngconf.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F71D8E1BDE105D464087CE71C5D617FF /* TOCropScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = E36E62562994460903ACF80669F8C26C /* TOCropScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8145CE1A4C5181EE2D09DD859928AAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE524462E020CF6DFB7F47DB7D16079A /* Foundation.framework */; };
+		F91A384EE7B4612B036868A75CC2D1D2 /* readbarcode.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EBDFDEAEE9452AA7002E68653D94FEC /* readbarcode.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FA8D4B81E13FC4A6D77E9C2B47C37313 /* UIImage+G8Filters.h in Headers */ = {isa = PBXBuildFile; fileRef = B5E76A990A08FAEB7046B1BEC13775CC /* UIImage+G8Filters.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE881B49995EE80EE925F8D2C5A55B34 /* thresholder.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF7FEBB2FBE4CB2D4B6819C41E913EF /* thresholder.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FF001C126B324D35DD159765C2A6DDC8 /* pnglibconf.h in Headers */ = {isa = PBXBuildFile; fileRef = 946C18771C6C25AEA62FA5A4B6A777F8 /* pnglibconf.h */; settings = {ATTRIBUTES = (Private, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15E78A6EBC6D16BA4AEF959DD85E94BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8A30385045F4B34BFD9A004556B93A8;
+			remoteInfo = Parsimmon;
+		};
+		3CC0A480BD54332B5EFFD064C1C9F824 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA22256354A3290098DE6633DEA5AA13;
+			remoteInfo = IPDFCameraViewController;
+		};
+		49A52AD12CA580B7FF0DC2EA5C6DC9C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F358404773985DF8AD4D0345D47FF097;
+			remoteInfo = "TOCropViewController-TOCropViewControllerBundle";
+		};
+		58C75588D7A3DEF21396A5B2516BF429 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDAF46E0D578C5DEA26EC3568822F91C;
+			remoteInfo = TesseractOCRiOS;
+		};
+		63EC8EE5B8FDC7CC9E7E1067883C10DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0CF4023101DD8062319E942D8030F1A;
+			remoteInfo = TOCropViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00EE78FBBBC3B3DD135E78F282B4F47D /* IPDFCameraViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = IPDFCameraViewController.modulemap; sourceTree = "<group>"; };
+		019728578151A2B34BA6DCFFE2ECF70F /* tiffconf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tiffconf.h; path = TesseractOCR/include/tiffconf.h; sourceTree = "<group>"; };
+		01BDCFE8AE37D5D91E26F1CA33FBC687 /* ParsimmonTagger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ParsimmonTagger.m; path = Parsimmon/ParsimmonTagger.m; sourceTree = "<group>"; };
+		0284265202503D63492E3C5C08FCA37A /* fileerr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fileerr.h; path = TesseractOCR/include/tesseract/fileerr.h; sourceTree = "<group>"; };
+		03131A0849D73F2C9CFE3E13389AE5D4 /* libtesseract.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libtesseract.a; path = TesseractOCR/lib/libtesseract.a; sourceTree = "<group>"; };
+		03D6F661D1E838E2C56BFB73A62A5C97 /* jbclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = jbclass.h; path = TesseractOCR/include/leptonica/jbclass.h; sourceTree = "<group>"; };
+		067778366FC8F7D461AF0ACED4910570 /* TOCropViewControllerTransitioning.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropViewControllerTransitioning.m; path = TOCropViewController/Models/TOCropViewControllerTransitioning.m; sourceTree = "<group>"; };
+		0712A7FB23C3E2DE456241B469F08FCE /* ParsimmonTaggedToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ParsimmonTaggedToken.h; path = Parsimmon/ParsimmonTaggedToken.h; sourceTree = "<group>"; };
+		0A755EA25489DE5260C70282718F6FC9 /* bmp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bmp.h; path = TesseractOCR/include/leptonica/bmp.h; sourceTree = "<group>"; };
+		0B573E93DE15994424910AF58657C631 /* Pods-SimpleScanner-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SimpleScanner-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0BF5850861C318741AB42318B55F9032 /* Parsimmon-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Parsimmon-prefix.pch"; sourceTree = "<group>"; };
+		0F377837BBEFFA3F64B2D8243283AFE5 /* regutils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = regutils.h; path = TesseractOCR/include/leptonica/regutils.h; sourceTree = "<group>"; };
+		1303D47C54F0ACEF33A4F3C4F82310E4 /* memry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = memry.h; path = TesseractOCR/include/tesseract/memry.h; sourceTree = "<group>"; };
+		13FCC99C8B24E7649751064CEDB7D903 /* unichar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = unichar.h; path = TesseractOCR/include/tesseract/unichar.h; sourceTree = "<group>"; };
+		144278532933AA3EFF28277043D66D83 /* ParsimmonDecisionTree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ParsimmonDecisionTree.h; path = Parsimmon/ParsimmonDecisionTree.h; sourceTree = "<group>"; };
+		15C33ADB6D698B18142F9CFC66612274 /* genericvector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = genericvector.h; path = TesseractOCR/include/tesseract/genericvector.h; sourceTree = "<group>"; };
+		1D2563D14D8B21A5B6A5B1B4B92F563A /* TOCropViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TOCropViewController.modulemap; sourceTree = "<group>"; };
+		1D6A47335C1C0E25E127435DA2251858 /* TesseractOCRiOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TesseractOCRiOS-dummy.m"; sourceTree = "<group>"; };
+		20DAE2C84D36495120C885DCD4DF3942 /* bmfdata.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bmfdata.h; path = TesseractOCR/include/leptonica/bmfdata.h; sourceTree = "<group>"; };
+		20F7DF14F361630C78892A0A524DD762 /* png.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = png.h; path = TesseractOCR/include/png.h; sourceTree = "<group>"; };
+		21197DD0B1EE42D7E9106B4AEE79B808 /* Parsimmon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Parsimmon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		214A726D702C05672EFC7A1FEEAA9F5B /* ndminx.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ndminx.h; path = TesseractOCR/include/tesseract/ndminx.h; sourceTree = "<group>"; };
+		21C67A249CFEE98AFDF8448D21A37AD8 /* TesseractOCR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TesseractOCR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21F910F867C2159551821407A42293CB /* ParsimmonTokenizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ParsimmonTokenizer.h; path = Parsimmon/ParsimmonTokenizer.h; sourceTree = "<group>"; };
+		22819BC79711BC3A752F4BB5AD95D887 /* tr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = tr.lproj; path = TOCropViewController/tr.lproj; sourceTree = "<group>"; };
+		23E9FE7ED2A9DC630AEF4BFA4937C6AE /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/GLKit.framework; sourceTree = DEVELOPER_DIR; };
+		289BE1823CD424659301F0AA9C0B2319 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreVideo.framework; sourceTree = DEVELOPER_DIR; };
+		2ADEF34936BAE0C0BC2EF3D265446B51 /* ar.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ar.lproj; path = TOCropViewController/ar.lproj; sourceTree = "<group>"; };
+		2B55450FD8FA1F6CC2EB453485B9BA87 /* ltrresultiterator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ltrresultiterator.h; path = TesseractOCR/include/tesseract/ltrresultiterator.h; sourceTree = "<group>"; };
+		2C8136670C414C01814721A705178205 /* ParsimmonNaiveBayesClassifier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ParsimmonNaiveBayesClassifier.m; path = Parsimmon/ParsimmonNaiveBayesClassifier.m; sourceTree = "<group>"; };
+		2D57D456B77997069069E4C99682BE09 /* libtiff.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libtiff.a; path = TesseractOCR/lib/libtiff.a; sourceTree = "<group>"; };
+		2F58E2CFCD85957DD015B43574BBF842 /* UIImage+CropRotate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+CropRotate.h"; path = "TOCropViewController/Models/UIImage+CropRotate.h"; sourceTree = "<group>"; };
+		30E5520D25BD5391E5E6DBC0D1950386 /* Pods-SimpleScanner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SimpleScanner-umbrella.h"; sourceTree = "<group>"; };
+		32410855F26DB752EBF5265F487C1724 /* ResourceBundle-TOCropViewControllerBundle-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TOCropViewControllerBundle-Info.plist"; sourceTree = "<group>"; };
+		332A3B07DF1DB32A16DA2B3E49A2CFDE /* heap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = heap.h; path = TesseractOCR/include/leptonica/heap.h; sourceTree = "<group>"; };
+		33B7086E74724D3BBF308730BFD9979F /* jpeglib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = jpeglib.h; path = TesseractOCR/include/jpeglib.h; sourceTree = "<group>"; };
+		343E728F04E80BB5AC79274C3626D526 /* IPDFCameraViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IPDFCameraViewController-prefix.pch"; sourceTree = "<group>"; };
+		378F92F24D53D77E974EEB4F7AF0774D /* TesseractOCRiOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TesseractOCRiOS.modulemap; sourceTree = "<group>"; };
+		38949EDCD180DB6EFB31953054D9FD12 /* G8TesseractDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = G8TesseractDelegate.h; path = TesseractOCR/G8TesseractDelegate.h; sourceTree = "<group>"; };
+		3945169BB5E7C19DDF2F31E030050C04 /* osdetect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = osdetect.h; path = TesseractOCR/include/tesseract/osdetect.h; sourceTree = "<group>"; };
+		3DE07B8791C40C75D4EF6F7AE190C6E2 /* bmf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bmf.h; path = TesseractOCR/include/leptonica/bmf.h; sourceTree = "<group>"; };
+		3E3BA9786D66DFB37CF2269F77E3F95D /* libjpeg.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libjpeg.a; path = TesseractOCR/lib/libjpeg.a; sourceTree = "<group>"; };
+		3F6B554BC8892C6DE84243C8913DCF43 /* TesseractOCR.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TesseractOCR.h; path = TesseractOCR/TesseractOCR.h; sourceTree = "<group>"; };
+		3FB4F9D54133DC95EFDB7BD5AAAD542C /* queue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = queue.h; path = TesseractOCR/include/leptonica/queue.h; sourceTree = "<group>"; };
+		4056C47FB463DD97203C9FC57721B6DF /* publictypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = publictypes.h; path = TesseractOCR/include/tesseract/publictypes.h; sourceTree = "<group>"; };
+		414C760EB3B81F8DDC3586E58246B662 /* G8Tesseract.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = G8Tesseract.mm; path = TesseractOCR/G8Tesseract.mm; sourceTree = "<group>"; };
+		42E4C39D0B66CDD836925B67B23CA409 /* ocrclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ocrclass.h; path = TesseractOCR/include/tesseract/ocrclass.h; sourceTree = "<group>"; };
+		43213121EFFFFCEBB526DB8CE9439D16 /* bilateral.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bilateral.h; path = TesseractOCR/include/leptonica/bilateral.h; sourceTree = "<group>"; };
+		44B6FF8CB0135D22D03932B61C0B6865 /* Pods-SimpleScanner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SimpleScanner.modulemap"; sourceTree = "<group>"; };
+		44CB1BEF2893EE546E2B0FB727C92186 /* Pods-SimpleScanner-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimpleScanner-resources.sh"; sourceTree = "<group>"; };
+		4684115AD0C65AAFE9460FB8404A73C3 /* vi.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = vi.lproj; path = TOCropViewController/vi.lproj; sourceTree = "<group>"; };
+		46BEE4108C4717478A1B020FA5BA490E /* TOCroppedImageAttributes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCroppedImageAttributes.m; path = TOCropViewController/Models/TOCroppedImageAttributes.m; sourceTree = "<group>"; };
+		4A2D1B41FCF4EE0D16BE809EE56F6C72 /* TesseractOCRiOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TesseractOCRiOS-prefix.pch"; sourceTree = "<group>"; };
+		4EBDFDEAEE9452AA7002E68653D94FEC /* readbarcode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = readbarcode.h; path = TesseractOCR/include/leptonica/readbarcode.h; sourceTree = "<group>"; };
+		50749855502A77A7ABF636F6331867A7 /* nl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = nl.lproj; path = TOCropViewController/nl.lproj; sourceTree = "<group>"; };
+		50E0AEAE0BB839B6A51A4FBE7F7C83D1 /* id.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = id.lproj; path = TOCropViewController/id.lproj; sourceTree = "<group>"; };
+		52835582EDEF68850B4563F50F2CF7B5 /* Pods-SimpleScanner-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimpleScanner-acknowledgements.plist"; sourceTree = "<group>"; };
+		55988C412B90466031C2838BC19A5F6A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		5777A265F3078F4B74A542A846DB3425 /* renderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = renderer.h; path = TesseractOCR/include/tesseract/renderer.h; sourceTree = "<group>"; };
+		583D1A109F4F0AD7C3379D91B0B515A9 /* TOCropOverlayView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropOverlayView.m; path = TOCropViewController/Views/TOCropOverlayView.m; sourceTree = "<group>"; };
+		585A73648171EE4BC26962D57594795C /* Pods-SimpleScanner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SimpleScanner-dummy.m"; sourceTree = "<group>"; };
+		595A5E95AC53FCA5A30B880E58745821 /* pl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = pl.lproj; path = TOCropViewController/pl.lproj; sourceTree = "<group>"; };
+		59C42A2562DE8B2D9D2CED1CD9FCA269 /* arrayaccess.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = arrayaccess.h; path = TesseractOCR/include/leptonica/arrayaccess.h; sourceTree = "<group>"; };
+		5C477782B0120500493E7F90E516CA6F /* Parsimmon.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Parsimmon.xcconfig; sourceTree = "<group>"; };
+		5C53B3DC96B7D7A9A623A02D757BF9E0 /* sudoku.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sudoku.h; path = TesseractOCR/include/leptonica/sudoku.h; sourceTree = "<group>"; };
+		5CAE5ECA0473F0BF437DF2FAA9B0ECF4 /* ptra.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ptra.h; path = TesseractOCR/include/leptonica/ptra.h; sourceTree = "<group>"; };
+		5DE7FB39C1093291DFCD577B3ECE07F3 /* Pods_SimpleScanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleScanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E6BC040434CAD4751EA983461D61364 /* IPDFCameraViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IPDFCameraViewController.m; path = IPDFCameraViewController/IPDFCameraViewController.m; sourceTree = "<group>"; };
+		5FD1DB7DC4B9EC54C7F29461B4766B47 /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = en.lproj; path = TOCropViewController/en.lproj; sourceTree = "<group>"; };
+		626CA200BE82B3EBC15597A50E9EBD39 /* bbuffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bbuffer.h; path = TesseractOCR/include/leptonica/bbuffer.h; sourceTree = "<group>"; };
+		626FC0FA642AE2A0ED03B3B9878EC7AD /* Parsimmon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Parsimmon.h; path = Parsimmon/Parsimmon.h; sourceTree = "<group>"; };
+		642323135193BA24DDDAA0E1B1B44A6E /* alltypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = alltypes.h; path = TesseractOCR/include/leptonica/alltypes.h; sourceTree = "<group>"; };
+		66A6F50133E0DB5D961A37772B1C53BE /* ko.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ko.lproj; path = TOCropViewController/ko.lproj; sourceTree = "<group>"; };
+		66CE5E6D26081FA379D3E45384CBA443 /* ParsimmonLemmatizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ParsimmonLemmatizer.m; path = Parsimmon/ParsimmonLemmatizer.m; sourceTree = "<group>"; };
+		66EC6E4B5610A8E22DEB7BBB9961EF68 /* UIImage+CropRotate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+CropRotate.m"; path = "TOCropViewController/Models/UIImage+CropRotate.m"; sourceTree = "<group>"; };
+		680FBB3F7D6788D3399CB4CB7A5CD92B /* environ.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = environ.h; path = TesseractOCR/include/leptonica/environ.h; sourceTree = "<group>"; };
+		68212C9001478626F7AAF8865910BF67 /* zh-Hans.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = "zh-Hans.lproj"; path = "TOCropViewController/zh-Hans.lproj"; sourceTree = "<group>"; };
+		68FC2669200FE026FA576720FDBC05E6 /* ParsimmonNaiveBayesClassifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ParsimmonNaiveBayesClassifier.h; path = Parsimmon/ParsimmonNaiveBayesClassifier.h; sourceTree = "<group>"; };
+		69A76569875DE39F76C70633AF5C605D /* ParsimmonTokenizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ParsimmonTokenizer.m; path = Parsimmon/ParsimmonTokenizer.m; sourceTree = "<group>"; };
+		6AB07D1BD901BBD98A0F3CF9E9A73C17 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+		6B12165F6F028A42AD17ECEBDB5EE561 /* recog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = recog.h; path = TesseractOCR/include/leptonica/recog.h; sourceTree = "<group>"; };
+		6C793DC619CB39F6B794DB1E0BEB99D8 /* imageio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = imageio.h; path = TesseractOCR/include/leptonica/imageio.h; sourceTree = "<group>"; };
+		6CB5DC363777B04BB09F338859AD2595 /* pageiterator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pageiterator.h; path = TesseractOCR/include/tesseract/pageiterator.h; sourceTree = "<group>"; };
+		6F7C3AE75588413D66FFBDD9F42A8D64 /* IPDFCameraViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IPDFCameraViewController-dummy.m"; sourceTree = "<group>"; };
+		7414426AAC588D328AAAF7C0642F39B3 /* TOCropScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropScrollView.m; path = TOCropViewController/Views/TOCropScrollView.m; sourceTree = "<group>"; };
+		772AD4ED0397BBB446D1BEE81F25ABD8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79DA9BD9E40406DCD4C893ADF349E03E /* serialis.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = serialis.h; path = TesseractOCR/include/tesseract/serialis.h; sourceTree = "<group>"; };
+		79DBEC3A61C075649F48F55F5E6C6544 /* Parsimmon-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Parsimmon-dummy.m"; sourceTree = "<group>"; };
+		7A089E48AB64EECE6F94F5FD0DD03375 /* TOCroppedImageAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCroppedImageAttributes.h; path = TOCropViewController/Models/TOCroppedImageAttributes.h; sourceTree = "<group>"; };
+		7E303D437252E9CDBDCB5BF96E1CDDCF /* watershed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = watershed.h; path = TesseractOCR/include/leptonica/watershed.h; sourceTree = "<group>"; };
+		7E7BBFE8985BE753901DF7265B93292D /* TOCropViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TOCropViewController-umbrella.h"; sourceTree = "<group>"; };
+		7ED164EFDF4392D70B21E7DF592A159A /* TOCropViewControllerTransitioning.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropViewControllerTransitioning.h; path = TOCropViewController/Models/TOCropViewControllerTransitioning.h; sourceTree = "<group>"; };
+		7F32E214B59C12E093B018C0178D3FCC /* helpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = helpers.h; path = TesseractOCR/include/tesseract/helpers.h; sourceTree = "<group>"; };
+		7F7551649D95558E3EF80C7D745BBDC0 /* jerror.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = jerror.h; path = TesseractOCR/include/jerror.h; sourceTree = "<group>"; };
+		7FB1CE5D1F34B47C054EED1F5F3ACAA5 /* strngs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = strngs.h; path = TesseractOCR/include/tesseract/strngs.h; sourceTree = "<group>"; };
+		82C66BA91F053BA1502354458B168EB2 /* es.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = es.lproj; path = TOCropViewController/es.lproj; sourceTree = "<group>"; };
+		839132133E1F95920B3B33B34ACCCCC9 /* Base.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = Base.lproj; path = TOCropViewController/Base.lproj; sourceTree = "<group>"; };
+		83E3C9D412962796BFED3A3687A87FA3 /* TesseractOCRiOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TesseractOCRiOS-umbrella.h"; sourceTree = "<group>"; };
+		8469AB7D7211353DDFCAB23C835A5A31 /* UIImage+G8Filters.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+G8Filters.m"; path = "TesseractOCR/UIImage+G8Filters.m"; sourceTree = "<group>"; };
+		8756A1FCFA2EC92FA5C5A314FDD7838B /* IPDFCameraViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IPDFCameraViewController.xcconfig; sourceTree = "<group>"; };
+		87C718B21795B4EC627E77A6D54E2CD7 /* TOCropViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TOCropViewController-prefix.pch"; sourceTree = "<group>"; };
+		88FBA44CDAA4A39E39B10603FA14AB65 /* ParsimmonDecisionTree.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ParsimmonDecisionTree.m; path = Parsimmon/ParsimmonDecisionTree.m; sourceTree = "<group>"; };
+		8A3D43C48D524B0866956B2583B9BC45 /* ru.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ru.lproj; path = TOCropViewController/ru.lproj; sourceTree = "<group>"; };
+		8AF7FEBB2FBE4CB2D4B6819C41E913EF /* thresholder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = thresholder.h; path = TesseractOCR/include/tesseract/thresholder.h; sourceTree = "<group>"; };
+		8B7AA52EB56C8301C5B42ED8881F8C3A /* apitypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = apitypes.h; path = TesseractOCR/include/tesseract/apitypes.h; sourceTree = "<group>"; };
+		8BFAEFBACE756C6DBF6E7C51DAB3FFF2 /* ParsimmonNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ParsimmonNode.m; path = Parsimmon/ParsimmonNode.m; sourceTree = "<group>"; };
+		8C776831711FA27EF4160CDC0A11F6D2 /* pngconf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pngconf.h; path = TesseractOCR/include/pngconf.h; sourceTree = "<group>"; };
+		8D07FCBA327AEA52300D4AE009A89639 /* gplot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = gplot.h; path = TesseractOCR/include/leptonica/gplot.h; sourceTree = "<group>"; };
+		8DC32E8C1D8F131D2CA0D4ED7246F4EA /* Parsimmon.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Parsimmon.modulemap; sourceTree = "<group>"; };
+		8DF47E38212D3FA06ED0D3235EA054C0 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreMedia.framework; sourceTree = DEVELOPER_DIR; };
+		8EE54F700D86447E4421FC13E840118A /* TOCropOverlayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropOverlayView.h; path = TOCropViewController/Views/TOCropOverlayView.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		946C18771C6C25AEA62FA5A4B6A777F8 /* pnglibconf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pnglibconf.h; path = TesseractOCR/include/pnglibconf.h; sourceTree = "<group>"; };
+		95587C2A1AA86550D34930CA58C38E44 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		985C7309EF5D144C1CADF3DF66951D70 /* IPDFCameraViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IPDFCameraViewController.h; path = IPDFCameraViewController/IPDFCameraViewController.h; sourceTree = "<group>"; };
+		9BB0ABEC05BB28B0569E02212EAC6749 /* TOCropViewControllerBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TOCropViewControllerBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BEF6EACA143DEA13D0E89C9F679FD92 /* G8Constants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = G8Constants.h; path = TesseractOCR/G8Constants.h; sourceTree = "<group>"; };
+		9E11AE7E07FA0985DE0C35BEA6CA22BA /* TesseractOCRiOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TesseractOCRiOS.xcconfig; sourceTree = "<group>"; };
+		9FC314EFA25EF235CB1D9B48E689DD06 /* G8RecognitionOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = G8RecognitionOperation.m; path = TesseractOCR/G8RecognitionOperation.m; sourceTree = "<group>"; };
+		A20F7E3B1752A64B2F5607BA560444FA /* de.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = de.lproj; path = TOCropViewController/de.lproj; sourceTree = "<group>"; };
+		A2DED5B109A47D8CB52DABF991F8E8D0 /* ParsimmonTaggedToken.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ParsimmonTaggedToken.m; path = Parsimmon/ParsimmonTaggedToken.m; sourceTree = "<group>"; };
+		A38A34867AF6B5DAD4BBE993E0350A8D /* params.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = params.h; path = TesseractOCR/include/tesseract/params.h; sourceTree = "<group>"; };
+		A4DB8094FEE393A94850BD08F79C6C5C /* Parsimmon-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Parsimmon-umbrella.h"; sourceTree = "<group>"; };
+		A58EC2DB8DA2635580D4D5668B1A45B7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A60F8C5F888DF1756129997283B15BED /* tiffio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tiffio.h; path = TesseractOCR/include/tiffio.h; sourceTree = "<group>"; };
+		A715348E08CA6A96FAAFC2A976D97C16 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7DE6B3CCD9CEA6993D561B55BCC75E5 /* G8RecognizedBlock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = G8RecognizedBlock.m; path = TesseractOCR/G8RecognizedBlock.m; sourceTree = "<group>"; };
+		A8E50987F3A3DBF5D543BF1628520D35 /* TOCropView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropView.h; path = TOCropViewController/Views/TOCropView.h; sourceTree = "<group>"; };
+		AA4E66A469D0CDA2C536F3C17DE156FA /* host.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = host.h; path = TesseractOCR/include/tesseract/host.h; sourceTree = "<group>"; };
+		AA6D8F88B7C7A3D624D87CB7055BA40B /* G8RecognitionOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = G8RecognitionOperation.h; path = TesseractOCR/G8RecognitionOperation.h; sourceTree = "<group>"; };
+		AE543011F0273DCA3EB683DBC6FE6AD3 /* G8TesseractParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = G8TesseractParameters.h; path = TesseractOCR/G8TesseractParameters.h; sourceTree = "<group>"; };
+		B0CFD13D8B0123B3FDCC207D70900FBE /* unicharset.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = unicharset.h; path = TesseractOCR/include/tesseract/unicharset.h; sourceTree = "<group>"; };
+		B1A5CCBFB75596BCB7FF83957378A611 /* ParsimmonLemmatizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ParsimmonLemmatizer.h; path = Parsimmon/ParsimmonLemmatizer.h; sourceTree = "<group>"; };
+		B1C4D723E4ECC41AFF273E214035AB7D /* platform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = platform.h; path = TesseractOCR/include/tesseract/platform.h; sourceTree = "<group>"; };
+		B2A360F15116594185BDAFD06C720933 /* TOCropViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TOCropViewController.xcconfig; sourceTree = "<group>"; };
+		B2FE4D0FB9EDAB964AE5C92619389240 /* IPDFCameraViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IPDFCameraViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B30B9968974912B376ADBAD9598A58C3 /* stack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stack.h; path = TesseractOCR/include/leptonica/stack.h; sourceTree = "<group>"; };
+		B341DF720F65EE15B7CF3776902C2EE4 /* tiff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tiff.h; path = TesseractOCR/include/tiff.h; sourceTree = "<group>"; };
+		B5E76A990A08FAEB7046B1BEC13775CC /* UIImage+G8Filters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+G8Filters.h"; path = "TesseractOCR/UIImage+G8Filters.h"; sourceTree = "<group>"; };
+		B68F8544AECDCFC71E05B1662C3F5DDA /* basedir.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = basedir.h; path = TesseractOCR/include/tesseract/basedir.h; sourceTree = "<group>"; };
+		B76B056A99ECDC84CD125404BFEF86D4 /* TOCropToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropToolbar.m; path = TOCropViewController/Views/TOCropToolbar.m; sourceTree = "<group>"; };
+		B76D6E468B04C8947A4E5EF424FA7977 /* Pods-SimpleScanner-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimpleScanner-frameworks.sh"; sourceTree = "<group>"; };
+		B8AAC73ACAB36F17B02BBBF962A81006 /* dewarp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dewarp.h; path = TesseractOCR/include/leptonica/dewarp.h; sourceTree = "<group>"; };
+		BA76017342D5CA6BE903705F5CCADA21 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBDBD125534EE2A2E1BC329DE8FB506D /* errcode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = errcode.h; path = TesseractOCR/include/tesseract/errcode.h; sourceTree = "<group>"; };
+		BE524462E020CF6DFB7F47DB7D16079A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		BF3618513A1012C80866AADEEF1AA5A8 /* tesscallback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tesscallback.h; path = TesseractOCR/include/tesseract/tesscallback.h; sourceTree = "<group>"; };
+		BF4A68928DB23826FB436DBD761239B9 /* TOCropViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TOCropViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF55824BF2AFF0E777F6267188F70DB1 /* list.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = list.h; path = TesseractOCR/include/leptonica/list.h; sourceTree = "<group>"; };
+		C1BD003C5F687976B884F37C0FF3EF5A /* liblept.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = liblept.a; path = TesseractOCR/lib/liblept.a; sourceTree = "<group>"; };
+		C27369402ADB2F029811C42B7F831D32 /* capi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = capi.h; path = TesseractOCR/include/tesseract/capi.h; sourceTree = "<group>"; };
+		C5B3D7F6555161B32DF2C86A161122BA /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreImage.framework; sourceTree = DEVELOPER_DIR; };
+		C7260447A8925840DD3CC19C7A32BA6A /* baseapi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = baseapi.h; path = TesseractOCR/include/tesseract/baseapi.h; sourceTree = "<group>"; };
+		C8C46AF2BA03D5B86AFE88DDCC21AED1 /* pt.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = pt.lproj; path = TOCropViewController/pt.lproj; sourceTree = "<group>"; };
+		CA76D2A94F8BB1EED6C13FE804143959 /* G8Tesseract.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = G8Tesseract.h; path = TesseractOCR/G8Tesseract.h; sourceTree = "<group>"; };
+		CD6CD228A3E8BE560FBE91A55DB73DF2 /* IPDFCameraViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IPDFCameraViewController-umbrella.h"; sourceTree = "<group>"; };
+		D0620B94DD1DFE5C37D34FCEB1388D78 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3C71405362A152403C41D94F2F5412C /* jmorecfg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = jmorecfg.h; path = TesseractOCR/include/jmorecfg.h; sourceTree = "<group>"; };
+		D4A1803DB3D7DA348CAC7B65EA0C1A34 /* it.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = it.lproj; path = TOCropViewController/it.lproj; sourceTree = "<group>"; };
+		D53FB9BFAFE2F5AE6091DC066A1897A0 /* allheaders.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = allheaders.h; path = TesseractOCR/include/leptonica/allheaders.h; sourceTree = "<group>"; };
+		D636527A4A2FB0341A8E6AE47E857A24 /* ParsimmonNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ParsimmonNode.h; path = Parsimmon/ParsimmonNode.h; sourceTree = "<group>"; };
+		D74D056BCA81D5C02ADCDD1025CBED4B /* da.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = da.lproj; path = TOCropViewController/da.lproj; sourceTree = "<group>"; };
+		D9B78CE0D9D8DA174E665E168589F55B /* TOCropViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropViewController.h; path = TOCropViewController/TOCropViewController.h; sourceTree = "<group>"; };
+		DA078CA5DF0E4488A65E64A361D0B6B9 /* array.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = array.h; path = TesseractOCR/include/leptonica/array.h; sourceTree = "<group>"; };
+		DE55E809E174E52AA683454D61CC5137 /* endianness.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = endianness.h; path = TesseractOCR/include/leptonica/endianness.h; sourceTree = "<group>"; };
+		DFD65D82059B2375F89BC80ECF8315A4 /* libpng.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libpng.a; path = TesseractOCR/lib/libpng.a; sourceTree = "<group>"; };
+		E36E62562994460903ACF80669F8C26C /* TOCropScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropScrollView.h; path = TOCropViewController/Views/TOCropScrollView.h; sourceTree = "<group>"; };
+		E386AD8BE17EBBE92ACE95F0DE140A8C /* G8RecognizedBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = G8RecognizedBlock.h; path = TesseractOCR/G8RecognizedBlock.h; sourceTree = "<group>"; };
+		E5F8A574BAADF88E44F601E0FBA3362B /* morph.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = morph.h; path = TesseractOCR/include/leptonica/morph.h; sourceTree = "<group>"; };
+		E6837B1DDD78702ED82490E2F6C2C239 /* G8TesseractParameters.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = G8TesseractParameters.m; path = TesseractOCR/G8TesseractParameters.m; sourceTree = "<group>"; };
+		E7B13693774FD1686E910C1F4CAC0A31 /* Pods-SimpleScanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleScanner.release.xcconfig"; sourceTree = "<group>"; };
+		E8DF4F21E2457AAB9CA71B7791D237D0 /* TOCropViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropViewController.m; path = TOCropViewController/TOCropViewController.m; sourceTree = "<group>"; };
+		E9549C7F59B9F6ED99672FDDD0456B81 /* TOActivityCroppedImageProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOActivityCroppedImageProvider.m; path = TOCropViewController/Models/TOActivityCroppedImageProvider.m; sourceTree = "<group>"; };
+		EBD07C34A9348693856A1825BD0B2DD2 /* ParsimmonSeed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ParsimmonSeed.h; path = Parsimmon/ParsimmonSeed.h; sourceTree = "<group>"; };
+		EC6196F563ACF25856AFE428AA2761F1 /* ccbord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ccbord.h; path = TesseractOCR/include/leptonica/ccbord.h; sourceTree = "<group>"; };
+		EED4E0808C161D7C61D292235ADB5965 /* pix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pix.h; path = TesseractOCR/include/leptonica/pix.h; sourceTree = "<group>"; };
+		EF017F1D66588D6AEED727C2802392CD /* leptwin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = leptwin.h; path = TesseractOCR/include/leptonica/leptwin.h; sourceTree = "<group>"; };
+		EF724C37ADFF4BB648989757D220E91E /* TOActivityCroppedImageProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOActivityCroppedImageProvider.h; path = TOCropViewController/Models/TOActivityCroppedImageProvider.h; sourceTree = "<group>"; };
+		F31C1EF417A7A054BFA65D95A2CCACD0 /* TOCropViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TOCropViewController-dummy.m"; sourceTree = "<group>"; };
+		F5620E3D0CCE4D040C41E8F906DD0AD8 /* TOCropView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropView.m; path = TOCropViewController/Views/TOCropView.m; sourceTree = "<group>"; };
+		F5AF444548D9F770D704FEAEF6934EF5 /* ParsimmonSeed.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ParsimmonSeed.m; path = Parsimmon/ParsimmonSeed.m; sourceTree = "<group>"; };
+		F6782F0373C1561D261DDDC02707DDBB /* ja.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ja.lproj; path = TOCropViewController/ja.lproj; sourceTree = "<group>"; };
+		F6F76E555A90AE6AAD3B63EB97D62EF2 /* resultiterator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = resultiterator.h; path = TesseractOCR/include/tesseract/resultiterator.h; sourceTree = "<group>"; };
+		F7B2386044D80B47C7DC74FDEC31A732 /* TOCropToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropToolbar.h; path = TOCropViewController/Views/TOCropToolbar.h; sourceTree = "<group>"; };
+		F877CDA7E87A025C6C87AA3CF46E70E9 /* Pods-SimpleScanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleScanner.debug.xcconfig"; sourceTree = "<group>"; };
+		F97B1B69BBE1EFA3CCC00FF3484A9810 /* fr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = fr.lproj; path = TOCropViewController/fr.lproj; sourceTree = "<group>"; };
+		FA61DF0C5E35850152D0374EB7801A56 /* unicharmap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = unicharmap.h; path = TesseractOCR/include/tesseract/unicharmap.h; sourceTree = "<group>"; };
+		FBEDDBB358D6DCBDB21C60C54E25E072 /* ParsimmonTagger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ParsimmonTagger.h; path = Parsimmon/ParsimmonTagger.h; sourceTree = "<group>"; };
+		FC2FDEF633B2295AF315876AC419988C /* stringcode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stringcode.h; path = TesseractOCR/include/leptonica/stringcode.h; sourceTree = "<group>"; };
+		FE8888DC74907DA98C6CC76110B6C5DE /* jconfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = jconfig.h; path = TesseractOCR/include/jconfig.h; sourceTree = "<group>"; };
+		FF0C05479FF95C6280F3CF17C603AD85 /* zh-Hant.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = "zh-Hant.lproj"; path = "TOCropViewController/zh-Hant.lproj"; sourceTree = "<group>"; };
+		FF9D91E9D8491D56D8B13A77BE934591 /* tiffvers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tiffvers.h; path = TesseractOCR/include/tiffvers.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		061DC262DBC2C4AB41B8FE768E819E08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2EC1A27B27C568B1D86B678F2994320 /* Foundation.framework in Frameworks */,
+				CEB6A5F94F0496B6C4384E8D675509BC /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74613DCF0C2275AF054FAEBC60B7A4B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C186DD4782BDF4DF581A36C8C6AE91C8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AE018F9566252CAAD8C799CA824FFC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54E282BFD1D2220A559DD2480C7551AE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		814782BFB34AC3B4C9CC19389B4730E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8A8B3228D7D55A8B293E9A6940587D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C7B5EFEC0D5BBFE13F065CB2E4B57BA /* AVFoundation.framework in Frameworks */,
+				610B8ABB30524D2350AC21E7978AD4E2 /* CoreImage.framework in Frameworks */,
+				7E318827BAE30102E7415FBCDC761495 /* CoreMedia.framework in Frameworks */,
+				BD57E2EE76D6257849606BB8361E3B91 /* CoreVideo.framework in Frameworks */,
+				F8145CE1A4C5181EE2D09DD859928AAC /* Foundation.framework in Frameworks */,
+				D06854F0E2709E875244060CF32B47E8 /* GLKit.framework in Frameworks */,
+				54AA800B16B2BD8C977A83EE182D6614 /* ImageIO.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD52BAE58EB220CC944D79F4E4D72539 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13F6035B461CA1D05C8651298179607F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B004E2367CC2BAF1D5060AE54A1F347 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3FBB57405DB1D1F91F45F473D1AD08C8 /* IPDFCameraViewController */,
+				831D5F45E5494A7A652E2FA75787AE27 /* Parsimmon */,
+				A06F11A0052813F465E4227476786DDB /* TesseractOCRiOS */,
+				48EF80AE80C1F6D14EF0B8D32F42560D /* TOCropViewController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		35C47A2DBB0D31650B9DAE5F9D2676C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E3BA9786D66DFB37CF2269F77E3F95D /* libjpeg.a */,
+				C1BD003C5F687976B884F37C0FF3EF5A /* liblept.a */,
+				DFD65D82059B2375F89BC80ECF8315A4 /* libpng.a */,
+				03131A0849D73F2C9CFE3E13389AE5D4 /* libtesseract.a */,
+				2D57D456B77997069069E4C99682BE09 /* libtiff.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3FBB57405DB1D1F91F45F473D1AD08C8 /* IPDFCameraViewController */ = {
+			isa = PBXGroup;
+			children = (
+				985C7309EF5D144C1CADF3DF66951D70 /* IPDFCameraViewController.h */,
+				5E6BC040434CAD4751EA983461D61364 /* IPDFCameraViewController.m */,
+				A8008CD030C8153582227740C16E5D80 /* Support Files */,
+			);
+			path = IPDFCameraViewController;
+			sourceTree = "<group>";
+		};
+		469A3D69A7347B1807558287DC1F55AF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A58EC2DB8DA2635580D4D5668B1A45B7 /* Info.plist */,
+				32410855F26DB752EBF5265F487C1724 /* ResourceBundle-TOCropViewControllerBundle-Info.plist */,
+				1D2563D14D8B21A5B6A5B1B4B92F563A /* TOCropViewController.modulemap */,
+				B2A360F15116594185BDAFD06C720933 /* TOCropViewController.xcconfig */,
+				F31C1EF417A7A054BFA65D95A2CCACD0 /* TOCropViewController-dummy.m */,
+				87C718B21795B4EC627E77A6D54E2CD7 /* TOCropViewController-prefix.pch */,
+				7E7BBFE8985BE753901DF7265B93292D /* TOCropViewController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TOCropViewController";
+			sourceTree = "<group>";
+		};
+		48EF80AE80C1F6D14EF0B8D32F42560D /* TOCropViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EF724C37ADFF4BB648989757D220E91E /* TOActivityCroppedImageProvider.h */,
+				E9549C7F59B9F6ED99672FDDD0456B81 /* TOActivityCroppedImageProvider.m */,
+				8EE54F700D86447E4421FC13E840118A /* TOCropOverlayView.h */,
+				583D1A109F4F0AD7C3379D91B0B515A9 /* TOCropOverlayView.m */,
+				7A089E48AB64EECE6F94F5FD0DD03375 /* TOCroppedImageAttributes.h */,
+				46BEE4108C4717478A1B020FA5BA490E /* TOCroppedImageAttributes.m */,
+				E36E62562994460903ACF80669F8C26C /* TOCropScrollView.h */,
+				7414426AAC588D328AAAF7C0642F39B3 /* TOCropScrollView.m */,
+				F7B2386044D80B47C7DC74FDEC31A732 /* TOCropToolbar.h */,
+				B76B056A99ECDC84CD125404BFEF86D4 /* TOCropToolbar.m */,
+				A8E50987F3A3DBF5D543BF1628520D35 /* TOCropView.h */,
+				F5620E3D0CCE4D040C41E8F906DD0AD8 /* TOCropView.m */,
+				D9B78CE0D9D8DA174E665E168589F55B /* TOCropViewController.h */,
+				E8DF4F21E2457AAB9CA71B7791D237D0 /* TOCropViewController.m */,
+				7ED164EFDF4392D70B21E7DF592A159A /* TOCropViewControllerTransitioning.h */,
+				067778366FC8F7D461AF0ACED4910570 /* TOCropViewControllerTransitioning.m */,
+				2F58E2CFCD85957DD015B43574BBF842 /* UIImage+CropRotate.h */,
+				66EC6E4B5610A8E22DEB7BBB9961EF68 /* UIImage+CropRotate.m */,
+				BF5161B3D9E548D595F2AF4D230A64BB /* Resources */,
+				469A3D69A7347B1807558287DC1F55AF /* Support Files */,
+			);
+			path = TOCropViewController;
+			sourceTree = "<group>";
+		};
+		49152220DD52C90E864AC392E6FB37A1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				772AD4ED0397BBB446D1BEE81F25ABD8 /* Info.plist */,
+				378F92F24D53D77E974EEB4F7AF0774D /* TesseractOCRiOS.modulemap */,
+				9E11AE7E07FA0985DE0C35BEA6CA22BA /* TesseractOCRiOS.xcconfig */,
+				1D6A47335C1C0E25E127435DA2251858 /* TesseractOCRiOS-dummy.m */,
+				4A2D1B41FCF4EE0D16BE809EE56F6C72 /* TesseractOCRiOS-prefix.pch */,
+				83E3C9D412962796BFED3A3687A87FA3 /* TesseractOCRiOS-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TesseractOCRiOS";
+			sourceTree = "<group>";
+		};
+		56A9B4E758463DDD94A331B5005C8F49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2FE4D0FB9EDAB964AE5C92619389240 /* IPDFCameraViewController.framework */,
+				21197DD0B1EE42D7E9106B4AEE79B808 /* Parsimmon.framework */,
+				5DE7FB39C1093291DFCD577B3ECE07F3 /* Pods_SimpleScanner.framework */,
+				21C67A249CFEE98AFDF8448D21A37AD8 /* TesseractOCR.framework */,
+				BF4A68928DB23826FB436DBD761239B9 /* TOCropViewController.framework */,
+				9BB0ABEC05BB28B0569E02212EAC6749 /* TOCropViewControllerBundle.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E7AFEEF36809389076F92CACDF5642A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFC76B7F982CAAF86D17F58BB6ADCA2B /* Pods-SimpleScanner */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		785553737B06AFC3DA711DDEB7D56194 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F51AADA896AB8523E02AFD5D4A3C966 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				785553737B06AFC3DA711DDEB7D56194 /* Frameworks */,
+				0B004E2367CC2BAF1D5060AE54A1F347 /* Pods */,
+				56A9B4E758463DDD94A331B5005C8F49 /* Products */,
+				5E7AFEEF36809389076F92CACDF5642A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		831D5F45E5494A7A652E2FA75787AE27 /* Parsimmon */ = {
+			isa = PBXGroup;
+			children = (
+				626FC0FA642AE2A0ED03B3B9878EC7AD /* Parsimmon.h */,
+				144278532933AA3EFF28277043D66D83 /* ParsimmonDecisionTree.h */,
+				88FBA44CDAA4A39E39B10603FA14AB65 /* ParsimmonDecisionTree.m */,
+				B1A5CCBFB75596BCB7FF83957378A611 /* ParsimmonLemmatizer.h */,
+				66CE5E6D26081FA379D3E45384CBA443 /* ParsimmonLemmatizer.m */,
+				68FC2669200FE026FA576720FDBC05E6 /* ParsimmonNaiveBayesClassifier.h */,
+				2C8136670C414C01814721A705178205 /* ParsimmonNaiveBayesClassifier.m */,
+				D636527A4A2FB0341A8E6AE47E857A24 /* ParsimmonNode.h */,
+				8BFAEFBACE756C6DBF6E7C51DAB3FFF2 /* ParsimmonNode.m */,
+				EBD07C34A9348693856A1825BD0B2DD2 /* ParsimmonSeed.h */,
+				F5AF444548D9F770D704FEAEF6934EF5 /* ParsimmonSeed.m */,
+				0712A7FB23C3E2DE456241B469F08FCE /* ParsimmonTaggedToken.h */,
+				A2DED5B109A47D8CB52DABF991F8E8D0 /* ParsimmonTaggedToken.m */,
+				FBEDDBB358D6DCBDB21C60C54E25E072 /* ParsimmonTagger.h */,
+				01BDCFE8AE37D5D91E26F1CA33FBC687 /* ParsimmonTagger.m */,
+				21F910F867C2159551821407A42293CB /* ParsimmonTokenizer.h */,
+				69A76569875DE39F76C70633AF5C605D /* ParsimmonTokenizer.m */,
+				8DA6FD8C0FDBE260A0AF2A42D8EFE02D /* Support Files */,
+			);
+			path = Parsimmon;
+			sourceTree = "<group>";
+		};
+		8DA6FD8C0FDBE260A0AF2A42D8EFE02D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA76017342D5CA6BE903705F5CCADA21 /* Info.plist */,
+				8DC32E8C1D8F131D2CA0D4ED7246F4EA /* Parsimmon.modulemap */,
+				5C477782B0120500493E7F90E516CA6F /* Parsimmon.xcconfig */,
+				79DBEC3A61C075649F48F55F5E6C6544 /* Parsimmon-dummy.m */,
+				0BF5850861C318741AB42318B55F9032 /* Parsimmon-prefix.pch */,
+				A4DB8094FEE393A94850BD08F79C6C5C /* Parsimmon-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Parsimmon";
+			sourceTree = "<group>";
+		};
+		8F51AADA896AB8523E02AFD5D4A3C966 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				55988C412B90466031C2838BC19A5F6A /* AVFoundation.framework */,
+				C5B3D7F6555161B32DF2C86A161122BA /* CoreImage.framework */,
+				8DF47E38212D3FA06ED0D3235EA054C0 /* CoreMedia.framework */,
+				289BE1823CD424659301F0AA9C0B2319 /* CoreVideo.framework */,
+				BE524462E020CF6DFB7F47DB7D16079A /* Foundation.framework */,
+				23E9FE7ED2A9DC630AEF4BFA4937C6AE /* GLKit.framework */,
+				6AB07D1BD901BBD98A0F3CF9E9A73C17 /* ImageIO.framework */,
+				95587C2A1AA86550D34930CA58C38E44 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A06F11A0052813F465E4227476786DDB /* TesseractOCRiOS */ = {
+			isa = PBXGroup;
+			children = (
+				D53FB9BFAFE2F5AE6091DC066A1897A0 /* allheaders.h */,
+				642323135193BA24DDDAA0E1B1B44A6E /* alltypes.h */,
+				8B7AA52EB56C8301C5B42ED8881F8C3A /* apitypes.h */,
+				DA078CA5DF0E4488A65E64A361D0B6B9 /* array.h */,
+				59C42A2562DE8B2D9D2CED1CD9FCA269 /* arrayaccess.h */,
+				C7260447A8925840DD3CC19C7A32BA6A /* baseapi.h */,
+				B68F8544AECDCFC71E05B1662C3F5DDA /* basedir.h */,
+				626CA200BE82B3EBC15597A50E9EBD39 /* bbuffer.h */,
+				43213121EFFFFCEBB526DB8CE9439D16 /* bilateral.h */,
+				3DE07B8791C40C75D4EF6F7AE190C6E2 /* bmf.h */,
+				20DAE2C84D36495120C885DCD4DF3942 /* bmfdata.h */,
+				0A755EA25489DE5260C70282718F6FC9 /* bmp.h */,
+				C27369402ADB2F029811C42B7F831D32 /* capi.h */,
+				EC6196F563ACF25856AFE428AA2761F1 /* ccbord.h */,
+				B8AAC73ACAB36F17B02BBBF962A81006 /* dewarp.h */,
+				DE55E809E174E52AA683454D61CC5137 /* endianness.h */,
+				680FBB3F7D6788D3399CB4CB7A5CD92B /* environ.h */,
+				BBDBD125534EE2A2E1BC329DE8FB506D /* errcode.h */,
+				0284265202503D63492E3C5C08FCA37A /* fileerr.h */,
+				9BEF6EACA143DEA13D0E89C9F679FD92 /* G8Constants.h */,
+				AA6D8F88B7C7A3D624D87CB7055BA40B /* G8RecognitionOperation.h */,
+				9FC314EFA25EF235CB1D9B48E689DD06 /* G8RecognitionOperation.m */,
+				E386AD8BE17EBBE92ACE95F0DE140A8C /* G8RecognizedBlock.h */,
+				A7DE6B3CCD9CEA6993D561B55BCC75E5 /* G8RecognizedBlock.m */,
+				CA76D2A94F8BB1EED6C13FE804143959 /* G8Tesseract.h */,
+				414C760EB3B81F8DDC3586E58246B662 /* G8Tesseract.mm */,
+				38949EDCD180DB6EFB31953054D9FD12 /* G8TesseractDelegate.h */,
+				AE543011F0273DCA3EB683DBC6FE6AD3 /* G8TesseractParameters.h */,
+				E6837B1DDD78702ED82490E2F6C2C239 /* G8TesseractParameters.m */,
+				15C33ADB6D698B18142F9CFC66612274 /* genericvector.h */,
+				8D07FCBA327AEA52300D4AE009A89639 /* gplot.h */,
+				332A3B07DF1DB32A16DA2B3E49A2CFDE /* heap.h */,
+				7F32E214B59C12E093B018C0178D3FCC /* helpers.h */,
+				AA4E66A469D0CDA2C536F3C17DE156FA /* host.h */,
+				6C793DC619CB39F6B794DB1E0BEB99D8 /* imageio.h */,
+				03D6F661D1E838E2C56BFB73A62A5C97 /* jbclass.h */,
+				FE8888DC74907DA98C6CC76110B6C5DE /* jconfig.h */,
+				7F7551649D95558E3EF80C7D745BBDC0 /* jerror.h */,
+				D3C71405362A152403C41D94F2F5412C /* jmorecfg.h */,
+				33B7086E74724D3BBF308730BFD9979F /* jpeglib.h */,
+				EF017F1D66588D6AEED727C2802392CD /* leptwin.h */,
+				BF55824BF2AFF0E777F6267188F70DB1 /* list.h */,
+				2B55450FD8FA1F6CC2EB453485B9BA87 /* ltrresultiterator.h */,
+				1303D47C54F0ACEF33A4F3C4F82310E4 /* memry.h */,
+				E5F8A574BAADF88E44F601E0FBA3362B /* morph.h */,
+				214A726D702C05672EFC7A1FEEAA9F5B /* ndminx.h */,
+				42E4C39D0B66CDD836925B67B23CA409 /* ocrclass.h */,
+				3945169BB5E7C19DDF2F31E030050C04 /* osdetect.h */,
+				6CB5DC363777B04BB09F338859AD2595 /* pageiterator.h */,
+				A38A34867AF6B5DAD4BBE993E0350A8D /* params.h */,
+				EED4E0808C161D7C61D292235ADB5965 /* pix.h */,
+				B1C4D723E4ECC41AFF273E214035AB7D /* platform.h */,
+				20F7DF14F361630C78892A0A524DD762 /* png.h */,
+				8C776831711FA27EF4160CDC0A11F6D2 /* pngconf.h */,
+				946C18771C6C25AEA62FA5A4B6A777F8 /* pnglibconf.h */,
+				5CAE5ECA0473F0BF437DF2FAA9B0ECF4 /* ptra.h */,
+				4056C47FB463DD97203C9FC57721B6DF /* publictypes.h */,
+				3FB4F9D54133DC95EFDB7BD5AAAD542C /* queue.h */,
+				4EBDFDEAEE9452AA7002E68653D94FEC /* readbarcode.h */,
+				6B12165F6F028A42AD17ECEBDB5EE561 /* recog.h */,
+				0F377837BBEFFA3F64B2D8243283AFE5 /* regutils.h */,
+				5777A265F3078F4B74A542A846DB3425 /* renderer.h */,
+				F6F76E555A90AE6AAD3B63EB97D62EF2 /* resultiterator.h */,
+				79DA9BD9E40406DCD4C893ADF349E03E /* serialis.h */,
+				B30B9968974912B376ADBAD9598A58C3 /* stack.h */,
+				FC2FDEF633B2295AF315876AC419988C /* stringcode.h */,
+				7FB1CE5D1F34B47C054EED1F5F3ACAA5 /* strngs.h */,
+				5C53B3DC96B7D7A9A623A02D757BF9E0 /* sudoku.h */,
+				BF3618513A1012C80866AADEEF1AA5A8 /* tesscallback.h */,
+				3F6B554BC8892C6DE84243C8913DCF43 /* TesseractOCR.h */,
+				8AF7FEBB2FBE4CB2D4B6819C41E913EF /* thresholder.h */,
+				B341DF720F65EE15B7CF3776902C2EE4 /* tiff.h */,
+				019728578151A2B34BA6DCFFE2ECF70F /* tiffconf.h */,
+				A60F8C5F888DF1756129997283B15BED /* tiffio.h */,
+				FF9D91E9D8491D56D8B13A77BE934591 /* tiffvers.h */,
+				B5E76A990A08FAEB7046B1BEC13775CC /* UIImage+G8Filters.h */,
+				8469AB7D7211353DDFCAB23C835A5A31 /* UIImage+G8Filters.m */,
+				13FCC99C8B24E7649751064CEDB7D903 /* unichar.h */,
+				FA61DF0C5E35850152D0374EB7801A56 /* unicharmap.h */,
+				B0CFD13D8B0123B3FDCC207D70900FBE /* unicharset.h */,
+				7E303D437252E9CDBDCB5BF96E1CDDCF /* watershed.h */,
+				35C47A2DBB0D31650B9DAE5F9D2676C1 /* Frameworks */,
+				49152220DD52C90E864AC392E6FB37A1 /* Support Files */,
+			);
+			path = TesseractOCRiOS;
+			sourceTree = "<group>";
+		};
+		A8008CD030C8153582227740C16E5D80 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A715348E08CA6A96FAAFC2A976D97C16 /* Info.plist */,
+				00EE78FBBBC3B3DD135E78F282B4F47D /* IPDFCameraViewController.modulemap */,
+				8756A1FCFA2EC92FA5C5A314FDD7838B /* IPDFCameraViewController.xcconfig */,
+				6F7C3AE75588413D66FFBDD9F42A8D64 /* IPDFCameraViewController-dummy.m */,
+				343E728F04E80BB5AC79274C3626D526 /* IPDFCameraViewController-prefix.pch */,
+				CD6CD228A3E8BE560FBE91A55DB73DF2 /* IPDFCameraViewController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/IPDFCameraViewController";
+			sourceTree = "<group>";
+		};
+		BF5161B3D9E548D595F2AF4D230A64BB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2ADEF34936BAE0C0BC2EF3D265446B51 /* ar.lproj */,
+				839132133E1F95920B3B33B34ACCCCC9 /* Base.lproj */,
+				D74D056BCA81D5C02ADCDD1025CBED4B /* da.lproj */,
+				A20F7E3B1752A64B2F5607BA560444FA /* de.lproj */,
+				5FD1DB7DC4B9EC54C7F29461B4766B47 /* en.lproj */,
+				82C66BA91F053BA1502354458B168EB2 /* es.lproj */,
+				F97B1B69BBE1EFA3CCC00FF3484A9810 /* fr.lproj */,
+				50E0AEAE0BB839B6A51A4FBE7F7C83D1 /* id.lproj */,
+				D4A1803DB3D7DA348CAC7B65EA0C1A34 /* it.lproj */,
+				F6782F0373C1561D261DDDC02707DDBB /* ja.lproj */,
+				66A6F50133E0DB5D961A37772B1C53BE /* ko.lproj */,
+				50749855502A77A7ABF636F6331867A7 /* nl.lproj */,
+				595A5E95AC53FCA5A30B880E58745821 /* pl.lproj */,
+				C8C46AF2BA03D5B86AFE88DDCC21AED1 /* pt.lproj */,
+				8A3D43C48D524B0866956B2583B9BC45 /* ru.lproj */,
+				22819BC79711BC3A752F4BB5AD95D887 /* tr.lproj */,
+				4684115AD0C65AAFE9460FB8404A73C3 /* vi.lproj */,
+				68212C9001478626F7AAF8865910BF67 /* zh-Hans.lproj */,
+				FF0C05479FF95C6280F3CF17C603AD85 /* zh-Hant.lproj */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		FFC76B7F982CAAF86D17F58BB6ADCA2B /* Pods-SimpleScanner */ = {
+			isa = PBXGroup;
+			children = (
+				D0620B94DD1DFE5C37D34FCEB1388D78 /* Info.plist */,
+				44B6FF8CB0135D22D03932B61C0B6865 /* Pods-SimpleScanner.modulemap */,
+				0B573E93DE15994424910AF58657C631 /* Pods-SimpleScanner-acknowledgements.markdown */,
+				52835582EDEF68850B4563F50F2CF7B5 /* Pods-SimpleScanner-acknowledgements.plist */,
+				585A73648171EE4BC26962D57594795C /* Pods-SimpleScanner-dummy.m */,
+				B76D6E468B04C8947A4E5EF424FA7977 /* Pods-SimpleScanner-frameworks.sh */,
+				44CB1BEF2893EE546E2B0FB727C92186 /* Pods-SimpleScanner-resources.sh */,
+				30E5520D25BD5391E5E6DBC0D1950386 /* Pods-SimpleScanner-umbrella.h */,
+				F877CDA7E87A025C6C87AA3CF46E70E9 /* Pods-SimpleScanner.debug.xcconfig */,
+				E7B13693774FD1686E910C1F4CAC0A31 /* Pods-SimpleScanner.release.xcconfig */,
+			);
+			name = "Pods-SimpleScanner";
+			path = "Target Support Files/Pods-SimpleScanner";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		36B5B4E426C4E805309655CA9D4AFD96 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FDB700053531D1B50DE3E56E8D53B04 /* Pods-SimpleScanner-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		701D89D639B20146DDED35C311C6A4E3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E4E842F4CF14DFD9123D58D6D9511C8 /* allheaders.h in Headers */,
+				5BA51F9A877E20DCADD0A8D092FE29A3 /* alltypes.h in Headers */,
+				D43BF96241ACCA063D0CB67FBAB65500 /* apitypes.h in Headers */,
+				A1C5845A2590CC59D7CC3E730BC591FE /* array.h in Headers */,
+				537A1626756DB7929697B489FE7D90A3 /* arrayaccess.h in Headers */,
+				BCC1E8F77638DE2B4A5E34E70EB95419 /* baseapi.h in Headers */,
+				63FFEF2633C63AEEA120FACD5E3E4D38 /* basedir.h in Headers */,
+				F25CC3AA298C9B8484FA2BA941D0EB99 /* bbuffer.h in Headers */,
+				37A540E22E58AA4E1413D79D391E3771 /* bilateral.h in Headers */,
+				49FF9C21132EEB3A0319EB48CD4124CE /* bmf.h in Headers */,
+				319C8F9987E49FEF6A9A2D94A9B5B9CB /* bmfdata.h in Headers */,
+				528880AEB178A89485848717D79C3918 /* bmp.h in Headers */,
+				23893A68BC76343D4F486B0DFBF3E354 /* capi.h in Headers */,
+				511C43719419FFA8C296527274594104 /* ccbord.h in Headers */,
+				07494E4DFAB1A3656C88A912AF37211C /* dewarp.h in Headers */,
+				68F6FE20E12D83F540807CECD965A9B0 /* endianness.h in Headers */,
+				19669D0FB46C22F323B51612ED991F69 /* environ.h in Headers */,
+				5F404F92C249CFF94E57994BC5453A4C /* errcode.h in Headers */,
+				E28D56455DFB32D36B73E1D1D38D854D /* fileerr.h in Headers */,
+				ABE21365CF58D8BDB7BC7E0BC508A306 /* G8Constants.h in Headers */,
+				2FB51CEDCBA9BDFC0286E23DC03AD702 /* G8RecognitionOperation.h in Headers */,
+				3CAC78E6E176EA731F74E182AA43D88F /* G8RecognizedBlock.h in Headers */,
+				9F126F23F8F451D7F0CCD8CA2A3C3CD0 /* G8Tesseract.h in Headers */,
+				217E66E3020C8B4540D25B43E05C48BB /* G8TesseractDelegate.h in Headers */,
+				0FF74C3DDEFDC1456F3CEB59889D8694 /* G8TesseractParameters.h in Headers */,
+				E7D26964D15866E715E02A6825F9C510 /* genericvector.h in Headers */,
+				DB623A73176BA1C04C45F1CE1B6CB55A /* gplot.h in Headers */,
+				A6C8401292B3FFEDF6D1855E8221D181 /* heap.h in Headers */,
+				116B678CF25FD8FB9E8B64F8C93B2916 /* helpers.h in Headers */,
+				0FEE38AF5E4B10F48A6AF1867E2D8E27 /* host.h in Headers */,
+				DB3ECC445B8F2723C17061664EBDC2DB /* imageio.h in Headers */,
+				9790DB8129B95EF94A65B6A4E6FE38F8 /* jbclass.h in Headers */,
+				2001B1B9364D0DA66BC03445A63A50C3 /* jconfig.h in Headers */,
+				0940E64E452CCD64495FBDD63C85018D /* jerror.h in Headers */,
+				6486A46958E6064D8E5447347942F883 /* jmorecfg.h in Headers */,
+				33C771829BC593DDB1E37FEEA57142B3 /* jpeglib.h in Headers */,
+				1166FE0AED8C5E26A69F2CE410E0BF52 /* leptwin.h in Headers */,
+				72782691EE910823FC2753304D1199DE /* list.h in Headers */,
+				3C488FC027BD65A90C191723545E3ADB /* ltrresultiterator.h in Headers */,
+				AA4F74204617B972797825EAA055C3D8 /* memry.h in Headers */,
+				F265C45340D048346025659E238B1FCF /* morph.h in Headers */,
+				2A6006E4EFA340CF4A74817E576FE901 /* ndminx.h in Headers */,
+				1B7668CDC08B98E35571F08430447B5D /* ocrclass.h in Headers */,
+				3E830AF9983D124EF8F7F436C702D2C1 /* osdetect.h in Headers */,
+				CD0ADB22D452FDBCB3D71BF5FA0C392E /* pageiterator.h in Headers */,
+				BE7FCC1AEB591A4A7A4C54E80BAD535E /* params.h in Headers */,
+				B6944668D73A9B077F8F4C751DE442F1 /* pix.h in Headers */,
+				ECAE19233FC94B6451471B0FACC63D8A /* platform.h in Headers */,
+				C5CB20154E788CE950BAB2898FFF0A28 /* png.h in Headers */,
+				F518790DC6F903A639FE4D8E23E3A561 /* pngconf.h in Headers */,
+				FF001C126B324D35DD159765C2A6DDC8 /* pnglibconf.h in Headers */,
+				D40369A2128C3989E891FE2B7B329BCC /* ptra.h in Headers */,
+				C9D8D336FBBB391FB6674AE8CBCBDBBC /* publictypes.h in Headers */,
+				2752A8EC9D4FAC4DA3F6ECE46F5CCB2D /* queue.h in Headers */,
+				F91A384EE7B4612B036868A75CC2D1D2 /* readbarcode.h in Headers */,
+				7158833CD34B0F0E0F5ABB3EF9997EF8 /* recog.h in Headers */,
+				3BBFA2DAD16B66FDCFA7A9AC1D14E494 /* regutils.h in Headers */,
+				C3303BA1D6B4369CE3C119B11E2597AE /* renderer.h in Headers */,
+				253F84BE0E9BC8E4E76E45F7B883629D /* resultiterator.h in Headers */,
+				9015B97702E435AA226096864F3C916F /* serialis.h in Headers */,
+				4B439DDC0A5D866FFA52F9FEA6D30A68 /* stack.h in Headers */,
+				58B466BE184EACE52A0B6F8A7097ED1F /* stringcode.h in Headers */,
+				2A0EE9583F9562359CD119A198A84064 /* strngs.h in Headers */,
+				AB8B375D98FE72BBFB743550153DBB1F /* sudoku.h in Headers */,
+				2A01C93D42ECDBCA84D3643F0E4CD01E /* tesscallback.h in Headers */,
+				08B5B444099818813300760B0349C86B /* TesseractOCR.h in Headers */,
+				5629318A2A9F3B67D2C189775BDFC7FF /* TesseractOCRiOS-umbrella.h in Headers */,
+				FE881B49995EE80EE925F8D2C5A55B34 /* thresholder.h in Headers */,
+				B82D8274B7674C8B8C1E5FB7227A1CE9 /* tiff.h in Headers */,
+				E088ACAFAF113BA9C0D49E9331A274D1 /* tiffconf.h in Headers */,
+				09CD11959F389B2C0BA1ED9732224150 /* tiffio.h in Headers */,
+				960C08E0818F31F2C2E2DE5827385502 /* tiffvers.h in Headers */,
+				FA8D4B81E13FC4A6D77E9C2B47C37313 /* UIImage+G8Filters.h in Headers */,
+				3F7685DCC3711D542208C038C27098E9 /* unichar.h in Headers */,
+				B53CAC98084FF15143A11E944A86C779 /* unicharmap.h in Headers */,
+				09DF508A73A06641B3BEDDD5CCD2B31A /* unicharset.h in Headers */,
+				CEEE50A6A8FFA5D95E35F50EBBED04BA /* watershed.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		787853F2FFDC228468F50E23C5CC1B6C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62861F41DB73938488C93EE01209D3C9 /* TOActivityCroppedImageProvider.h in Headers */,
+				A96C3491ECC5050439FF0054F4C77DAE /* TOCropOverlayView.h in Headers */,
+				81AA78D9D2BAB28953C1863D93C30E8C /* TOCroppedImageAttributes.h in Headers */,
+				F71D8E1BDE105D464087CE71C5D617FF /* TOCropScrollView.h in Headers */,
+				5A0ABDD1620CD88244F487A19E566562 /* TOCropToolbar.h in Headers */,
+				DE9872EB60390A11BCEED969552504F5 /* TOCropView.h in Headers */,
+				730BFB1542076F3C5DC64FE2505FD065 /* TOCropViewController-umbrella.h in Headers */,
+				9FC5ECB70816DA1F6EF3CBA9C3EEE5E3 /* TOCropViewController.h in Headers */,
+				849EDB23D1356196859F2CF6CFE0A36C /* TOCropViewControllerTransitioning.h in Headers */,
+				A0ADB164BAB122F2DB1F3B48464EB289 /* UIImage+CropRotate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78E6FBC17337302ED0A683035110F3C5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98C30A86CAE9BDF7C54AC0B95CB72C28 /* IPDFCameraViewController-umbrella.h in Headers */,
+				BED6893B0791400393BA0ECF76BF6EE0 /* IPDFCameraViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		928AD4A57818B87FD345B697008D2DFC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1CE9AF89705AA142AFB10D43EA6E69F /* Parsimmon-umbrella.h in Headers */,
+				A4E473BC120B46C72BD199CFC09D3EF0 /* Parsimmon.h in Headers */,
+				511864A81C9C1D27F9E969B56193DA8D /* ParsimmonDecisionTree.h in Headers */,
+				4872B30998F9CC18E66F32269EA959B1 /* ParsimmonLemmatizer.h in Headers */,
+				86425D3BCB2381C6562B6C709AA51E2C /* ParsimmonNaiveBayesClassifier.h in Headers */,
+				7516251F6ED33C1542E52A2E786EBD8F /* ParsimmonNode.h in Headers */,
+				AF52CE2B1442D84266F5589F31673ED8 /* ParsimmonSeed.h in Headers */,
+				E227FD856D1E1D4706EC07634D9B56E4 /* ParsimmonTaggedToken.h in Headers */,
+				21ABE13CCC822A4E697CA9A368D8FF24 /* ParsimmonTagger.h in Headers */,
+				57304A877B7A230658FF069C9D2561D9 /* ParsimmonTokenizer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		034C7170CB990D9DF0FE676E5F89258F /* Pods-SimpleScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1775CBB606360F82F45C78F7C580B40F /* Build configuration list for PBXNativeTarget "Pods-SimpleScanner" */;
+			buildPhases = (
+				4EF5FD863E36B2EE1E54961A2CDD30BD /* Sources */,
+				74613DCF0C2275AF054FAEBC60B7A4B8 /* Frameworks */,
+				36B5B4E426C4E805309655CA9D4AFD96 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				093D6160620674C86E22223D02B99AC7 /* PBXTargetDependency */,
+				FF73E946EDE5754A75EDE2500F4F8AF7 /* PBXTargetDependency */,
+				C92EE5BC996728E45BB484E6180E2A14 /* PBXTargetDependency */,
+				0E1168160CAFE7AC3DE4B97031107401 /* PBXTargetDependency */,
+			);
+			name = "Pods-SimpleScanner";
+			productName = "Pods-SimpleScanner";
+			productReference = 5DE7FB39C1093291DFCD577B3ECE07F3 /* Pods_SimpleScanner.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B8A30385045F4B34BFD9A004556B93A8 /* Parsimmon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CB17098F0EAD734D1D04B318EEB5AE5 /* Build configuration list for PBXNativeTarget "Parsimmon" */;
+			buildPhases = (
+				853A3F1B002E1FAAA8B0A674FA2D9C5B /* Sources */,
+				FD52BAE58EB220CC944D79F4E4D72539 /* Frameworks */,
+				928AD4A57818B87FD345B697008D2DFC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Parsimmon;
+			productName = Parsimmon;
+			productReference = 21197DD0B1EE42D7E9106B4AEE79B808 /* Parsimmon.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BA22256354A3290098DE6633DEA5AA13 /* IPDFCameraViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9FE0CF6197DC586BC5E98B4875B6F24 /* Build configuration list for PBXNativeTarget "IPDFCameraViewController" */;
+			buildPhases = (
+				B1B0525DD7119E63FE2D32F3F9843F3B /* Sources */,
+				D8A8B3228D7D55A8B293E9A6940587D2 /* Frameworks */,
+				78E6FBC17337302ED0A683035110F3C5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IPDFCameraViewController;
+			productName = IPDFCameraViewController;
+			productReference = B2FE4D0FB9EDAB964AE5C92619389240 /* IPDFCameraViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D0CF4023101DD8062319E942D8030F1A /* TOCropViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E80212375066FA5FA06D340019D7D1C /* Build configuration list for PBXNativeTarget "TOCropViewController" */;
+			buildPhases = (
+				0599A7DC8271B6F061426AD43385C39A /* Sources */,
+				7AE018F9566252CAAD8C799CA824FFC2 /* Frameworks */,
+				DF8BA2C401CD2D21215E964DF73E3C26 /* Resources */,
+				787853F2FFDC228468F50E23C5CC1B6C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B66F749FF747993290C74DCAA44E46D4 /* PBXTargetDependency */,
+			);
+			name = TOCropViewController;
+			productName = TOCropViewController;
+			productReference = BF4A68928DB23826FB436DBD761239B9 /* TOCropViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EDAF46E0D578C5DEA26EC3568822F91C /* TesseractOCRiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9977DF93C0E964C1FB06BFD832ED63EC /* Build configuration list for PBXNativeTarget "TesseractOCRiOS" */;
+			buildPhases = (
+				4AA0BE4CDD06D12C44B57110F10C523C /* Sources */,
+				061DC262DBC2C4AB41B8FE768E819E08 /* Frameworks */,
+				701D89D639B20146DDED35C311C6A4E3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TesseractOCRiOS;
+			productName = TesseractOCRiOS;
+			productReference = 21C67A249CFEE98AFDF8448D21A37AD8 /* TesseractOCR.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F358404773985DF8AD4D0345D47FF097 /* TOCropViewController-TOCropViewControllerBundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6FE7FDDAF9A3A4685B3CFAC0B9F034E /* Build configuration list for PBXNativeTarget "TOCropViewController-TOCropViewControllerBundle" */;
+			buildPhases = (
+				A9FDAA3B5BCB52D3D37F45FD5F51EF3F /* Sources */,
+				814782BFB34AC3B4C9CC19389B4730E0 /* Frameworks */,
+				3AAEFD15E79F2CDF098CD9A1449C3CB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TOCropViewController-TOCropViewControllerBundle";
+			productName = "TOCropViewController-TOCropViewControllerBundle";
+			productReference = 9BB0ABEC05BB28B0569E02212EAC6749 /* TOCropViewControllerBundle.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 56A9B4E758463DDD94A331B5005C8F49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA22256354A3290098DE6633DEA5AA13 /* IPDFCameraViewController */,
+				B8A30385045F4B34BFD9A004556B93A8 /* Parsimmon */,
+				034C7170CB990D9DF0FE676E5F89258F /* Pods-SimpleScanner */,
+				EDAF46E0D578C5DEA26EC3568822F91C /* TesseractOCRiOS */,
+				D0CF4023101DD8062319E942D8030F1A /* TOCropViewController */,
+				F358404773985DF8AD4D0345D47FF097 /* TOCropViewController-TOCropViewControllerBundle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3AAEFD15E79F2CDF098CD9A1449C3CB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF6F79C7AE091C17A24FC51F3E08ADA0 /* ar.lproj in Resources */,
+				D34B1D83277EC06F57743A89DACA3A06 /* Base.lproj in Resources */,
+				E620D719E57D54A05795E7213E233E00 /* da.lproj in Resources */,
+				633F0D49A1B1E1D4EC1C288F4EFE4E3B /* de.lproj in Resources */,
+				085866B8A5FE00DC206EC427A1B46251 /* en.lproj in Resources */,
+				A3DBFC2927574DA944A2A6D4A102A978 /* es.lproj in Resources */,
+				877584B6E70D7D99713B1C7BAFF9D41D /* fr.lproj in Resources */,
+				C7F6CF5047833CBE858F12EC58522647 /* id.lproj in Resources */,
+				79FAF4A036B44C6DC90331FCA214376C /* it.lproj in Resources */,
+				256E4F57E431DE762618E48C49DAA068 /* ja.lproj in Resources */,
+				51A15689AD89E91650890851CABA5970 /* ko.lproj in Resources */,
+				AB4A9E6CE95E6CCEAD60419A516E4E5A /* nl.lproj in Resources */,
+				95C08BCFF24252A396BF3DA998E619E8 /* pl.lproj in Resources */,
+				7636D9536FDA3166C38997C50CE1C4C0 /* pt.lproj in Resources */,
+				64B3DF804028376907AAE71B070768EC /* ru.lproj in Resources */,
+				A035084D34D5C3BF7283B700F4A2CAC1 /* tr.lproj in Resources */,
+				7B46955C75A192F1AC8F7CC9D057D7F2 /* vi.lproj in Resources */,
+				52DD8CBC6CB45D8AF1B389A8428189BB /* zh-Hans.lproj in Resources */,
+				8811017878DAFD9443FDB905BDD620B9 /* zh-Hant.lproj in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF8BA2C401CD2D21215E964DF73E3C26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AB41AE2E29A280192F574543520F32C /* TOCropViewControllerBundle.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0599A7DC8271B6F061426AD43385C39A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				854A8BA79F74B9E8C60320DDD205A271 /* TOActivityCroppedImageProvider.m in Sources */,
+				B972B814D64C80BE712239E578E48574 /* TOCropOverlayView.m in Sources */,
+				E788BC482F8D43E13E5B60D3AB83A94C /* TOCroppedImageAttributes.m in Sources */,
+				5E0EBCFBCAB64B1280C1133C751F34AA /* TOCropScrollView.m in Sources */,
+				4F3D417BC3A02E64515456569CA2914C /* TOCropToolbar.m in Sources */,
+				9A2EBC1A2E455A98CE13641B7254ED9C /* TOCropView.m in Sources */,
+				F50BA4AF33D90DAC7BA3111E91C6E1B7 /* TOCropViewController-dummy.m in Sources */,
+				66DE8C0E41DE9A3C54F255EC414EE0DD /* TOCropViewController.m in Sources */,
+				DEAA832BD6697CC17122474B19382E35 /* TOCropViewControllerTransitioning.m in Sources */,
+				0F0ADB48A361FB7754ED64E41E62592D /* UIImage+CropRotate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AA0BE4CDD06D12C44B57110F10C523C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9C15DCF740289FBA81CF0FA05BC2085 /* G8RecognitionOperation.m in Sources */,
+				17235A1C4C0BDA4083BE7CF8F27F7943 /* G8RecognizedBlock.m in Sources */,
+				ABB6C71A8C6EA835F640BA1B00C426E2 /* G8Tesseract.mm in Sources */,
+				080F8E1AB54FF6E50F59AE588DE0E931 /* G8TesseractParameters.m in Sources */,
+				22C678FEA449598B7713B025296C4064 /* TesseractOCRiOS-dummy.m in Sources */,
+				203CE7FC08E426EEEE76F82F98C7056A /* UIImage+G8Filters.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EF5FD863E36B2EE1E54961A2CDD30BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				602E5DE9BE6DC8AD5A6E237F55A5024B /* Pods-SimpleScanner-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		853A3F1B002E1FAAA8B0A674FA2D9C5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA9254DE35EF72BE14B45170A019D07C /* Parsimmon-dummy.m in Sources */,
+				E8585A19CCA151A005514B008DA44997 /* ParsimmonDecisionTree.m in Sources */,
+				F481AD8D05BF5D5A7F683421D48FDE9F /* ParsimmonLemmatizer.m in Sources */,
+				7775FCF65E8F95DB08DEC100117265CE /* ParsimmonNaiveBayesClassifier.m in Sources */,
+				722CF67A8720741F9397B3F1B241C798 /* ParsimmonNode.m in Sources */,
+				7A0C465F9ED13C63839D3EC7C47F7549 /* ParsimmonSeed.m in Sources */,
+				4D35917E346564B5A4388AFC7F4FA266 /* ParsimmonTaggedToken.m in Sources */,
+				48A7FBB7FBFF60E526E515EA20075ED4 /* ParsimmonTagger.m in Sources */,
+				BEB5514ED1AA33DF9E343EE87097F86A /* ParsimmonTokenizer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9FDAA3B5BCB52D3D37F45FD5F51EF3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1B0525DD7119E63FE2D32F3F9843F3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DFB386EFC5E572597EBE61D1180A167 /* IPDFCameraViewController-dummy.m in Sources */,
+				0B8E835B9CF56D4B7A109D376930A10F /* IPDFCameraViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		093D6160620674C86E22223D02B99AC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IPDFCameraViewController;
+			target = BA22256354A3290098DE6633DEA5AA13 /* IPDFCameraViewController */;
+			targetProxy = 3CC0A480BD54332B5EFFD064C1C9F824 /* PBXContainerItemProxy */;
+		};
+		0E1168160CAFE7AC3DE4B97031107401 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TesseractOCRiOS;
+			target = EDAF46E0D578C5DEA26EC3568822F91C /* TesseractOCRiOS */;
+			targetProxy = 58C75588D7A3DEF21396A5B2516BF429 /* PBXContainerItemProxy */;
+		};
+		B66F749FF747993290C74DCAA44E46D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "TOCropViewController-TOCropViewControllerBundle";
+			target = F358404773985DF8AD4D0345D47FF097 /* TOCropViewController-TOCropViewControllerBundle */;
+			targetProxy = 49A52AD12CA580B7FF0DC2EA5C6DC9C5 /* PBXContainerItemProxy */;
+		};
+		C92EE5BC996728E45BB484E6180E2A14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TOCropViewController;
+			target = D0CF4023101DD8062319E942D8030F1A /* TOCropViewController */;
+			targetProxy = 63EC8EE5B8FDC7CC9E7E1067883C10DA /* PBXContainerItemProxy */;
+		};
+		FF73E946EDE5754A75EDE2500F4F8AF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Parsimmon;
+			target = B8A30385045F4B34BFD9A004556B93A8 /* Parsimmon */;
+			targetProxy = 15E78A6EBC6D16BA4AEF959DD85E94BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3ABCF58DB88140B0B9CF3D8DEAC21CDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E11AE7E07FA0985DE0C35BEA6CA22BA /* TesseractOCRiOS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TesseractOCRiOS/TesseractOCRiOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TesseractOCRiOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TesseractOCRiOS/TesseractOCRiOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TesseractOCR;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		409FE9BDEF3040062651DCA814E4B244 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E11AE7E07FA0985DE0C35BEA6CA22BA /* TesseractOCRiOS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TesseractOCRiOS/TesseractOCRiOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TesseractOCRiOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TesseractOCRiOS/TesseractOCRiOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TesseractOCR;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		42287DDF97330524BA3EF220F0276DA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55EA7946A3373777DC1CE628A00FD3F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2A360F15116594185BDAFD06C720933 /* TOCropViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TOCropViewController/TOCropViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TOCropViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TOCropViewController/TOCropViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TOCropViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6B0993B89E71B0BD5D9E998D9DD93E4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C477782B0120500493E7F90E516CA6F /* Parsimmon.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Parsimmon/Parsimmon-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Parsimmon/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Parsimmon/Parsimmon.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Parsimmon;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7518F00E258E0BB5FEC9B60C557883D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2A360F15116594185BDAFD06C720933 /* TOCropViewController.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TOCropViewController";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/TOCropViewController/ResourceBundle-TOCropViewControllerBundle-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = TOCropViewControllerBundle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		7E4810A0988DC02A28C402A9CB04A644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7B13693774FD1686E910C1F4CAC0A31 /* Pods-SimpleScanner.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SimpleScanner/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SimpleScanner/Pods-SimpleScanner.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SimpleScanner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8D5BFCF189F51F6E985DBD116CDDEDA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2A360F15116594185BDAFD06C720933 /* TOCropViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TOCropViewController/TOCropViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TOCropViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TOCropViewController/TOCropViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TOCropViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A0EF02F68D9177634D0C318F854834A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2A360F15116594185BDAFD06C720933 /* TOCropViewController.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TOCropViewController";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/TOCropViewController/ResourceBundle-TOCropViewControllerBundle-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = TOCropViewControllerBundle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		ABC71190BABA97F22FD51A3E433653BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8756A1FCFA2EC92FA5C5A314FDD7838B /* IPDFCameraViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/IPDFCameraViewController/IPDFCameraViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IPDFCameraViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IPDFCameraViewController/IPDFCameraViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = IPDFCameraViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AE9439C22469D35336242DD983DB5C5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CEEB26F53B3346119C6E10270E7569B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F877CDA7E87A025C6C87AA3CF46E70E9 /* Pods-SimpleScanner.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SimpleScanner/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SimpleScanner/Pods-SimpleScanner.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SimpleScanner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F59CD9D3A24FB1D4F52C8FF28CFA276F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8756A1FCFA2EC92FA5C5A314FDD7838B /* IPDFCameraViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/IPDFCameraViewController/IPDFCameraViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IPDFCameraViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IPDFCameraViewController/IPDFCameraViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = IPDFCameraViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FC42F00781893059BDDBAB69903A6C91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C477782B0120500493E7F90E516CA6F /* Parsimmon.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Parsimmon/Parsimmon-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Parsimmon/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Parsimmon/Parsimmon.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Parsimmon;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1775CBB606360F82F45C78F7C580B40F /* Build configuration list for PBXNativeTarget "Pods-SimpleScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEEB26F53B3346119C6E10270E7569B0 /* Debug */,
+				7E4810A0988DC02A28C402A9CB04A644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE9439C22469D35336242DD983DB5C5F /* Debug */,
+				42287DDF97330524BA3EF220F0276DA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CB17098F0EAD734D1D04B318EEB5AE5 /* Build configuration list for PBXNativeTarget "Parsimmon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B0993B89E71B0BD5D9E998D9DD93E4E /* Debug */,
+				FC42F00781893059BDDBAB69903A6C91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E80212375066FA5FA06D340019D7D1C /* Build configuration list for PBXNativeTarget "TOCropViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55EA7946A3373777DC1CE628A00FD3F7 /* Debug */,
+				8D5BFCF189F51F6E985DBD116CDDEDA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9977DF93C0E964C1FB06BFD832ED63EC /* Build configuration list for PBXNativeTarget "TesseractOCRiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ABCF58DB88140B0B9CF3D8DEAC21CDE /* Debug */,
+				409FE9BDEF3040062651DCA814E4B244 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6FE7FDDAF9A3A4685B3CFAC0B9F034E /* Build configuration list for PBXNativeTarget "TOCropViewController-TOCropViewControllerBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7518F00E258E0BB5FEC9B60C557883D7 /* Debug */,
+				A0EF02F68D9177634D0C318F854834A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9FE0CF6197DC586BC5E98B4875B6F24 /* Build configuration list for PBXNativeTarget "IPDFCameraViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABC71190BABA97F22FD51A3E433653BE /* Debug */,
+				F59CD9D3A24FB1D4F52C8FF28CFA276F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
