@@ -12,6 +12,7 @@ class EditViewController: UIViewController {
     
     var snippet: Snippet!
 
+    @IBOutlet weak var titleContent: UITextField!
     @IBOutlet weak var textContent: UITextView!
     
     override func viewDidLoad() {
@@ -21,11 +22,15 @@ class EditViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        
+        titleContent.text = snippet.value(forKey: "title") as? String
         textContent.text = snippet.value(forKey: "text") as? String
     }
 
     @IBAction func done(_ sender: AnyObject) {
-        SnippetStore.shared.updateSnippet(snippet: snippet, text: textContent.text!)
+        SnippetStore.shared.updateSnippet(snippet: snippet,
+                                          title: titleContent.text ?? "",
+                                          text: textContent.text ?? "")
         _ = navigationController?.popViewController(animated: true)
     }
 

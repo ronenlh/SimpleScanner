@@ -85,7 +85,8 @@ class SnippetStore: NSObject {
         DBManager.shared.saveContext()
     }
     
-    func updateSnippet(snippet: Snippet, text: String) {
+    func updateSnippet(snippet: Snippet, title: String, text: String) {
+        snippet.setValue(title, forKey: "title")
         snippet.setValue(text, forKey: "text")
         DBManager.shared.saveContext()
     }

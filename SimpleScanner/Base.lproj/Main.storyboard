@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11535.1" systemVersion="16A320" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AbP-Pn-yrU">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AbP-Pn-yrU">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11523"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Segues with Peek and Pop" minToolsVersion="7.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -122,7 +122,7 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="8Cy-bQ-9oe">
                                 <rect key="frame" x="16" y="72" width="343" height="543"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleCallout"/>
                                 <textInputTraits key="textInputTraits" spellCheckingType="yes"/>
                             </textView>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AFA-uU-vpU">
@@ -279,19 +279,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="rYJ-QL-O69">
-                                <rect key="frame" x="16" y="72" width="343" height="543"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" keyboardDismissMode="onDrag" translatesAutoresizingMaskIntoConstraints="NO" id="rYJ-QL-O69">
+                                <rect key="frame" x="16" y="123" width="343" height="492"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="yes" spellCheckingType="yes"/>
                             </textView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="K2y-hh-5oY">
+                                <rect key="frame" x="16" y="80" width="343" height="27"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="leadingMargin" secondItem="K2y-hh-5oY" secondAttribute="leading" id="5j3-eP-gEy"/>
+                            <constraint firstItem="K2y-hh-5oY" firstAttribute="top" secondItem="1ml-OS-njW" secondAttribute="bottom" constant="16" id="9HX-De-LS0"/>
                             <constraint firstItem="rYJ-QL-O69" firstAttribute="leading" secondItem="Qv7-eh-YF2" secondAttribute="leadingMargin" id="HBA-Dq-Kps"/>
-                            <constraint firstItem="rYJ-QL-O69" firstAttribute="top" secondItem="1ml-OS-njW" secondAttribute="bottom" constant="8" id="IX5-j8-g5E"/>
                             <constraint firstItem="tBf-Yt-Kxj" firstAttribute="top" secondItem="rYJ-QL-O69" secondAttribute="bottom" constant="8" id="Nrp-np-pFj"/>
                             <constraint firstAttribute="trailingMargin" secondItem="rYJ-QL-O69" secondAttribute="trailing" id="U96-lB-TLh"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="K2y-hh-5oY" secondAttribute="trailing" id="u0C-GS-AN7"/>
+                            <constraint firstItem="rYJ-QL-O69" firstAttribute="top" secondItem="K2y-hh-5oY" secondAttribute="bottom" constant="16" id="weM-o0-yJh"/>
                         </constraints>
                     </view>
                     <toolbarItems>
@@ -312,6 +320,7 @@
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="textContent" destination="rYJ-QL-O69" id="Usc-qB-3h4"/>
+                        <outlet property="titleContent" destination="K2y-hh-5oY" id="1zn-wK-gb5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FQc-eD-LBi" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -346,7 +355,7 @@
         <image name="ic_invert_colors_white" width="24" height="24"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="2ij-QI-diW"/>
+        <segue reference="Uwa-I6-eld"/>
         <segue reference="0CC-kz-hEF"/>
     </inferredMetricsTieBreakers>
 </document>
